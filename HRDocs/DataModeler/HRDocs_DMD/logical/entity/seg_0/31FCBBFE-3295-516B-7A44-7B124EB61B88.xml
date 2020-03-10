@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31FCBBFE-3295-516B-7A44-7B124EB61B88" name="LANGUAGE-LEVEL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 12:48:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Language level]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>2D81A4E3-C16C-F2DC-2E96-E3679487F3C2</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LANGUAGE-LEVEL ID" id="ECD99BB3-E00E-2917-CBD3-D6D23C3A6B79">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 12:49:09 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LANGUAGE-LEVEL LABEL" id="18984469-A71B-4296-1C38-3E338E1DFD78">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 12:49:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Level label]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>60F7C767-44E1-CB99-FC3D-206CCF6CB16A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C5B360D-7D3B-A580-6E6A-293711DA37F5" name="LANGUAGE-LEVEL PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 12:49:29 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>ECD99BB3-E00E-2917-CBD3-D6D23C3A6B79</newElementsIDs>
+<usedAttributes>
+<attributeRef>ECD99BB3-E00E-2917-CBD3-D6D23C3A6B79</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0E7AD1A2-C9A8-1967-0561-C0B345673988" name="LGGLVL_LGGLVL_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 12:50:48 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>18984469-A71B-4296-1C38-3E338E1DFD78</newElementsIDs>
+<usedAttributes>
+<attributeRef>18984469-A71B-4296-1C38-3E338E1DFD78</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

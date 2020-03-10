@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAYROLL PERSON" directorySegmentName="seg_1" id="3D2F6FAC-8B39-3871-7DB1-044A7C17921A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 20:12:03 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<sourcePk>9A11308C-6A90-BDF7-489D-8F0E27FA8121</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6476F377-B250-7948-85FB-98346C69FA1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DDCF28D1-D15E-098A-11AC-759F49EBCE9A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

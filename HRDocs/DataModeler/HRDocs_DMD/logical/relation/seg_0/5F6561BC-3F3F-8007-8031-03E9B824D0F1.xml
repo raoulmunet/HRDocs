@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VACATION PERSON" directorySegmentName="seg_0" id="5F6561BC-3F3F-8007-8031-03E9B824D0F1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 14:20:52 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>9A11308C-6A90-BDF7-489D-8F0E27FA8121</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6476F377-B250-7948-85FB-98346C69FA1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>79984874-0203-8AF2-A5C7-F5A2794068D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

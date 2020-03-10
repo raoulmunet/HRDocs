@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24C23C2E-9E0B-BC95-394A-338CF350BCC0" name="APPLICATION-STATUS">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 10:25:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Application statuses]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="APPLICATION-STATUS ID" id="0AF558AB-2D38-6CEE-9A73-39206B359896">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 18:35:52 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APPLICATION-STATUS LABEL" id="D32B3688-6EC3-575B-BEEE-8F83AC712A0F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 18:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Status label]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9C38033-B6B6-6757-8EF6-DDE7A359AE2F" name="APPLICATION-STATUS PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 18:36:03 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0AF558AB-2D38-6CEE-9A73-39206B359896</newElementsIDs>
+<usedAttributes>
+<attributeRef>0AF558AB-2D38-6CEE-9A73-39206B359896</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2717A4DC-B94E-80DC-37C8-D85C10F3F618" name="APPSTS_APPSTS_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 18:36:38 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>D32B3688-6EC3-575B-BEEE-8F83AC712A0F</newElementsIDs>
+<usedAttributes>
+<attributeRef>D32B3688-6EC3-575B-BEEE-8F83AC712A0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="938BCD08-C2AD-EF22-48CE-CAD76AD0D54D" name="COMPENSATION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:34:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compensations]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COMPENSATION ID" id="669D30B6-9EAE-A456-EB3B-9B3A656D3ABA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:34:45 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPENSATION VALUE" id="E1994083-263B-2831-C391-3E3E3B1F9882">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:35:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compensation value]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>F43C5292-6523-8381-9CE3-22E23FADACB0</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WAGE ID" id="0D148005-203E-D8A7-5019-ABD8263C8069">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:38:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compensation type]]></commentInRDBMS>
+<generatorID>953A0995-6B46-E501-10A6-E4F055C4AF5D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>806831CE-6DBF-2344-CCDA-C5F5A85B7563</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDITION ID" id="1A3C1FFA-1688-3281-1751-9A63F3169019">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Addition to contract]]></commentInRDBMS>
+<generatorID>B0E65D4F-7CAF-1B62-F0D2-C45E6B6105CF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>631E0013-033B-2F63-DD95-9697EBBFD707</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5AE20EA-8BBD-A087-5286-D1F27AA7D75B" name="COMPENSATION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:34:56 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>669D30B6-9EAE-A456-EB3B-9B3A656D3ABA</newElementsIDs>
+<usedAttributes>
+<attributeRef>669D30B6-9EAE-A456-EB3B-9B3A656D3ABA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

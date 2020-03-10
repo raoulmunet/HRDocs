@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HEALTH-INSURANCE-FUND-BENEFICIAR PERSON" directorySegmentName="seg_1" id="3E200C12-A48B-393C-1849-68F0684F3DCE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 13:31:24 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<sourcePk>9A11308C-6A90-BDF7-489D-8F0E27FA8121</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6476F377-B250-7948-85FB-98346C69FA1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C02FEA9B-E7D7-828B-D2DA-BAF93E3B2D2F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

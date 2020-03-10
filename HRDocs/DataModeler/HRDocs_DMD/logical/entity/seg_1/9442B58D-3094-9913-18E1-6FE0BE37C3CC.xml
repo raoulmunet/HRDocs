@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="9442B58D-3094-9913-18E1-6FE0BE37C3CC" name="HANDICAP">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:25:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Types od handicap]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<additionalClassificationTypes>2,521FBBA0-9C44-7D90-1976-85F226CF9F5C</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HANDICAP ID" id="E37DC571-9C8F-998B-A6E6-074D53C511C1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:25:43 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HANDICAP LABEL" id="9DF7C7CD-0BDA-7542-18D9-5AF4A1EEC5B6">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:25:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Handicap label]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E57851EE-746F-A984-C28B-185669077431" name="HANDICAP PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:25:53 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E37DC571-9C8F-998B-A6E6-074D53C511C1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="62750BE1-E1C0-42D6-36A6-31628F3B9761" name="HANDICAP">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:26:18 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<newElementsIDs>9DF7C7CD-0BDA-7542-18D9-5AF4A1EEC5B6</newElementsIDs>
+<usedAttributes>
+<attributeRef>9DF7C7CD-0BDA-7542-18D9-5AF4A1EEC5B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

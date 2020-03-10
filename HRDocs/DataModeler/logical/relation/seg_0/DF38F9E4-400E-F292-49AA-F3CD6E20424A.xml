@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BENEFTOCTR BENEFICE" directorySegmentName="seg_0" id="DF38F9E4-400E-F292-49AA-F3CD6E20424A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 12:23:48 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>8626177D-CA38-AF78-A6E1-EB54E5C13311</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D482230D-212B-3BA7-031B-5AC35AC8A469</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF4B78FA-DC90-0969-FCFB-0D5935578995</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

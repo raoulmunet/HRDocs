@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REQUEST-FOR-CHANGE-SKILL LIST-OF-SKILL" directorySegmentName="seg_0" id="79B96094-8DC5-4387-4BF5-13AC88CA6F03">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-02 12:03:00 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>8D5B27A7-5CFD-C84A-D1F5-2E1780F2CBB2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4638B2B3-E045-2112-C71E-0F8A78F718D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5CF3D82-E1BC-ECDB-0D40-9A95B785EBA1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94510F30-60E0-B4E6-DA7D-B4D9E21B0CFE" name="KNOWN-SKILL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-02 11:58:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Known skills]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>2D81A4E3-C16C-F2DC-2E96-E3679487F3C2</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PERSON ID" id="E6589DDA-C748-3BAD-EE87-19707FCB354A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-02 12:15:29 UTC</createdTime>
+<generatorID>259BC72B-98B1-A531-ED43-DAE2CB652585</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LIST-OF-SKILL ID" id="A7FC3AE6-D9C3-F780-B9C8-71B30BCACDC8">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-02 12:15:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Skill]]></commentInRDBMS>
+<generatorID>72F6CC95-C425-AC9F-16F8-4C3BB144175D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>8002C020-74DD-D9A2-07BD-B37F5862C7FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0AC077D-19FE-7BA0-B064-DCEF0152D083" name="KNOWN-SKILL PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-02 12:15:29 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6589DDA-C748-3BAD-EE87-19707FCB354A</attributeRef>
+<attributeRef>A7FC3AE6-D9C3-F780-B9C8-71B30BCACDC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

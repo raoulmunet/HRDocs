@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LNGLVL LSTLNG" directorySegmentName="seg_0" id="B862EFDE-A037-111B-6DC4-C0B8A1C65FA4">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 12:56:42 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>0C5B360D-7D3B-A580-6E6A-293711DA37F5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>31FCBBFE-3295-516B-7A44-7B124EB61B88</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>82EE07BB-8412-081F-9443-68C2BC77971A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CFBC28D-48B8-6B07-C827-AEC6A2CE0F2E" name="PERSON-QUALITY">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quality of the person registered in table (employee, exemployee, relative ...)]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<typeID>CE939052-FCED-54B7-DDDD-176194462DED</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PERSON-QUALITY ID" id="47A0CD1D-27C7-5381-83A7-0CE4554AC6FD">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 10:39:36 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON-QUALITY LABEL" id="98FF1F33-7D56-951D-8609-58504A012968">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 10:39:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quality label]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6D81A93-F8B9-415A-28DE-8DDAB5B6C4F1" name="PERSON-QUALITY PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 10:39:48 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>47A0CD1D-27C7-5381-83A7-0CE4554AC6FD</newElementsIDs>
+<usedAttributes>
+<attributeRef>47A0CD1D-27C7-5381-83A7-0CE4554AC6FD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="58190AB2-3D85-177B-084C-9402221412FC" name="PSOQLT_PSOQLT_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 10:40:16 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<newElementsIDs>98FF1F33-7D56-951D-8609-58504A012968</newElementsIDs>
+<usedAttributes>
+<attributeRef>98FF1F33-7D56-951D-8609-58504A012968</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

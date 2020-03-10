@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ATTENDANCE ABSENCE" directorySegmentName="seg_0" id="79A13521-E743-5796-E7D0-5056B042B81B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 15:24:08 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>5AA5FDEA-A919-D934-338A-EAAF4163578A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>51E07E24-0517-2FB6-692D-0437F2BA6C04</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F7B4950-CB1A-EE18-437B-5EED612ECC91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPENSATION ADDITION" directorySegmentName="seg_0" id="B0E65D4F-7CAF-1B62-F0D2-C45E6B6105CF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:38:51 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>A3F5E4DB-792D-C926-E09B-B0AEE0CFC564</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C0B97907-BD8A-5F51-A3D0-2D429B9700FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>938BCD08-C2AD-EF22-48CE-CAD76AD0D54D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

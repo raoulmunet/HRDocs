@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VACATION-ACCRUAL PERSON" directorySegmentName="seg_1" id="E11C8D2F-0E4A-7EA9-EC39-921A7FD9E227">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 10:58:57 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>9A11308C-6A90-BDF7-489D-8F0E27FA8121</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6476F377-B250-7948-85FB-98346C69FA1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>22EF2419-4115-A838-716A-F40A1A1EA3E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SICK-LEAVE PRESCRIBER" directorySegmentName="seg_1" id="609766B4-A4D0-7C38-26F4-60261C862BFC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:54:58 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<sourcePk>62D7DC2E-C871-7897-22E9-2E1614FD4408</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D32B35FE-38FA-AC1F-776F-40BE348969CE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4EEA1272-CFD1-6166-3E97-DA9C219EF7E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

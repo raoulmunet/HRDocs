@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B9D9803-9FB5-E71D-764E-EA96283E27B6" name="ACCRUAL-DATE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 11:21:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Accrual date (future date when the reset is done)]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>4EFA75B5-4A05-1A6C-F9BD-C8CB70D884F1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ACCRUAL-DATE ID" id="6505C628-CB1D-92ED-AC5B-D08B00C84F0A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 11:22:16 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCRUAL-DATE DATE" id="0BC61927-B884-A5E8-3193-348D4FFEC302">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 11:22:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Accrual date]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IS-ACTIVE" id="DFA2AF22-E433-DACC-FB3F-1643A93767EA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-16 13:42:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Is Active]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CE0B3AA-7303-458C-08EE-7102CD51F8A9" name="ACCRUAL-DATE PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 11:22:41 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6505C628-CB1D-92ED-AC5B-D08B00C84F0A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="98F61502-A00F-B1E2-4793-52E71D284F5F" name="ACCRUAL-DATE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 11:23:19 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>0BC61927-B884-A5E8-3193-348D4FFEC302</newElementsIDs>
+<usedAttributes>
+<attributeRef>0BC61927-B884-A5E8-3193-348D4FFEC302</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

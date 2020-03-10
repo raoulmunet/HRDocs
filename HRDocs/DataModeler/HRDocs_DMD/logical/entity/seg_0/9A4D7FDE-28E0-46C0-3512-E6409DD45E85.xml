@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A4D7FDE-28E0-46C0-3512-E6409DD45E85" name="INSURANCE-LEVEL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<comment><![CDATA[Insurance levels]]></comment>
+<commentInRDBMS><![CDATA[Levels of insurance]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>6C3CFAB4-38B5-7828-7D14-1E03DE5C0336</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>24AC831C-3558-2DD1-6B94-04C202A354B1</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="INSURANCE-LEVEL ID" id="B522E026-8546-C261-ED12-E51EC610C04F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>8D5601E4-A43D-6D12-816C-C04EF33A06E5</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSURANCE-LEVEL LABEL" id="9B5B3763-3D74-1AEE-1344-C35617C629B2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Insurance level label]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>20F8EEF6-CC64-30E4-B67F-DCB9EC7B6D17</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSURANCE-LEVEL HIERARCHY" id="B0297B66-46A8-2284-27E8-C35F4295F5E2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-02 19:07:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Insurance level hierarchy (level number)]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09D10E05-2C3D-D6D7-0D05-403E197A5444" name="INSURANCE-LEVEL PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>92B96908-4FC9-0563-D640-C249E6974B15</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B522E026-8546-C261-ED12-E51EC610C04F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D17C8447-4AD9-91C9-B100-D88ED8AE634D" name="INSLVL_INSLVL_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>E2AB7723-573D-4D58-FE8D-D2B36CA95732</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>9B5B3763-3D74-1AEE-1344-C35617C629B2</newElementsIDs>
+<usedAttributes>
+<attributeRef>9B5B3763-3D74-1AEE-1344-C35617C629B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

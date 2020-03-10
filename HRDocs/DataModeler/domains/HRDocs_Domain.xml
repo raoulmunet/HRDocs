@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="HRDocs_Domain">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VC_0025" id="003A552A-490E-59EC-9C74-223FFD39B92B">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>003A552A-490E-59EC-9C74-223FFD39B92B</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>25 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="YN_Y" id="1D7AC2B0-A3DC-E409-5F63-F298321C3E58">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>1D7AC2B0-A3DC-E409-5F63-F298321C3E58</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+         <defaultValue>Y</defaultValue>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="N" description="No"/>
+            <valueDef value="Y" description="YeS"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DATE" id="2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VC_0100" id="2F73CDC1-863F-99A7-3A73-327B03BA47C0">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>2F73CDC1-863F-99A7-3A73-327B03BA47C0</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NAMES" id="435A14A4-D496-E33D-360B-56BCAC2BEBD2">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>435A14A4-D496-E33D-360B-56BCAC2BEBD2</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>25 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="ADDRESS" id="49E42A46-29BE-0B90-3F67-552D22D03F39">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>49E42A46-29BE-0B90-3F67-552D22D03F39</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VC_0002" id="60F7C767-44E1-CB99-FC3D-206CCF6CB16A">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>60F7C767-44E1-CB99-FC3D-206CCF6CB16A</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>2 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VC_4000" id="7D370C34-4258-D7C0-46F2-3E4C0AF2131D">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>7D370C34-4258-D7C0-46F2-3E4C0AF2131D</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>4000 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="HOUR" directorySegmentName="seg_1" id="809652C2-4B73-D8E9-569A-1B0C580A6157">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-02-19 12:20:36 UTC</createdTime>
+         <ownerDesignName>HRDocs_Domain</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>3</dataTypePrecision>
+         <dataTypeScale>1</dataTypeScale>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="YN" id="8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="N" description="No"/>
+            <valueDef value="Y" description="Yes"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="GEN" id="971A638E-A0DB-0583-1B23-0F563E5030BC">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>971A638E-A0DB-0583-1B23-0F563E5030BC</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="F" description="Female"/>
+            <valueDef value="M" description="Male"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="GEOGRAPHY" id="A6AB6E88-AF2B-44C4-B51D-8B6157B0881E">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>A6AB6E88-AF2B-44C4-B51D-8B6157B0881E</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VC_0010" id="C0B7608A-B615-5E22-947E-1FEFDD4D57DC">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="USER" id="C735FCDF-6B71-3B92-184A-5673FF098A6A">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>C735FCDF-6B71-3B92-184A-5673FF098A6A</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="ID" id="DD6B902D-2960-A9D4-204A-45024E328390">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>DD6B902D-2960-A9D4-204A-45024E328390</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>18</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>18 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 11:55:58 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>DOM3000004</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="SALARY" id="F43C5292-6523-8381-9CE3-22E23FADACB0">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>F43C5292-6523-8381-9CE3-22E23FADACB0</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>5</dataTypePrecision>
+         <dataTypeScale>5</dataTypeScale>
+         <defaultValue>0</defaultValue>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CNP" id="F49DCA1E-4B43-6E03-6CD2-A5D4743BE93F">
+         <createdBy>raoul</createdBy>
+         <createdTime>2020-01-17 12:05:10 UTC</createdTime>
+         <ownerDesignName>HRDocs_DMD</ownerDesignName>
+         <importedID>F49DCA1E-4B43-6E03-6CD2-A5D4743BE93F</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>13 BYTE</dataTypeSize>
+         <fileName>HRDocs_Domain</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

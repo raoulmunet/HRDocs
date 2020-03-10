@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1C86C9B-3EED-8D15-23CB-75E5C7A34C03" name="SUSPENSION-REASON">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 09:26:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Reasons to suspend the contract]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SUSPENSION-REASON ID" id="776B2C30-6BF3-16E0-FEF0-5ABC73D243E9">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 09:30:18 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUSPENSION-REASON LABEL" id="04BEC574-D310-7FFF-5101-D6E63645AE6E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 09:30:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Suuspension label]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="420E2BD3-CBFF-6C82-E42E-D9CC1C14629B" name="SUSPENSION-REASON PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 09:30:26 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>776B2C30-6BF3-16E0-FEF0-5ABC73D243E9</newElementsIDs>
+<usedAttributes>
+<attributeRef>776B2C30-6BF3-16E0-FEF0-5ABC73D243E9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="627EB6F2-A642-E865-BD9B-8E1A20028B28" name="SUSPENSION-REASON">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 09:30:55 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<newElementsIDs>04BEC574-D310-7FFF-5101-D6E63645AE6E</newElementsIDs>
+<usedAttributes>
+<attributeRef>04BEC574-D310-7FFF-5101-D6E63645AE6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

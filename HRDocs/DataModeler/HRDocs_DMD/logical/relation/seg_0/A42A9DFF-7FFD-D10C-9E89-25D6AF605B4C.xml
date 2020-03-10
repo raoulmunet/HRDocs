@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HOLIDAY ATTENDANCE" directorySegmentName="seg_0" id="A42A9DFF-7FFD-D10C-9E89-25D6AF605B4C">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 13:03:53 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>8270C46C-4669-6572-DE3A-38849FE97183</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B547991-ACA2-822B-3558-1EC18038D6C2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F7B4950-CB1A-EE18-437B-5EED612ECC91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.Design>
+   <object objectType="ChangeRequest" objectID="A6428002-AA5D-FC7C-8145-4B3ED9DF45E2" name="Create Users (schema)" seqName="" propertyClassName="oracle.dbtools.crest.model.ChangeRequest" propertyParentId="BAE04766-00FB-7919-DF93-1A80D9E1AF76" propertySourceId="" propertyTargetId=""/>
+   <object objectType="ChangeRequest" objectID="D2BC7EFB-7970-4512-E86E-43E8E8E84712" name="Create Formation model" seqName="" propertyClassName="oracle.dbtools.crest.model.ChangeRequest" propertyParentId="BAE04766-00FB-7919-DF93-1A80D9E1AF76" propertySourceId="" propertyTargetId=""/>
+   <object objectType="ChangeRequest" objectID="F63E1502-E908-2132-F987-2F8D39455DDD" name="Create Payroll model" seqName="" propertyClassName="oracle.dbtools.crest.model.ChangeRequest" propertyParentId="BAE04766-00FB-7919-DF93-1A80D9E1AF76" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.Design>

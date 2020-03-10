@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SUSPENSION CONTRACT FK" directorySegmentName="seg_0" id="A22BD89B-C4CA-D371-4AE8-1C9EE0D800FA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 13:36:55 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>0EF7C40A-521D-2053-3219-F3F014A81F83</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7A61A864-F4F9-0233-18A5-E215C55B7349</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7C9A5EE5-C896-A1A3-1BCD-AE4F61C9F44D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

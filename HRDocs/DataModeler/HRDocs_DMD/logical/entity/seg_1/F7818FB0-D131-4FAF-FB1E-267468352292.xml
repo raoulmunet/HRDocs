@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="F7818FB0-D131-4FAF-FB1E-267468352292" name="BANK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:47:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bank names]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BANK ID" id="DACD4A80-2736-BD4D-3355-CFDA040FEC72">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:48:17 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BANK NAME" id="D2A10F20-6EAD-BA8C-8835-2D9B6AFB2490">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:51:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bamk name]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F73CDC1-863F-99A7-3A73-327B03BA47C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="828E06FA-880D-0425-0968-55095DD9E578" name="BANK PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:48:25 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DACD4A80-2736-BD4D-3355-CFDA040FEC72</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="26ED2767-05F0-8CA1-D78D-56F87F132353" name="BANK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:51:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<newElementsIDs>D2A10F20-6EAD-BA8C-8835-2D9B6AFB2490</newElementsIDs>
+<usedAttributes>
+<attributeRef>D2A10F20-6EAD-BA8C-8835-2D9B6AFB2490</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

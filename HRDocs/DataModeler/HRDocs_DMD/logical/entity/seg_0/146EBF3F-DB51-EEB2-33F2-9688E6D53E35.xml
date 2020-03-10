@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="146EBF3F-DB51-EEB2-33F2-9688E6D53E35" name="JOB-CANDIDATE-IN-CHARGE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-16 18:53:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Person in charge for a step in the processus of recrutement]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CHRG</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JOB-CANDIDATE-IN-CHARGE ID" id="CB2961E1-225A-5763-4968-A9E682ADA4AF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-16 18:54:45 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JOB-CANDIDATE ID" id="6C4C7E4E-29C8-A29E-AEE8-C5A284C586DB">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-16 18:55:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Job - Candidate - Status]]></commentInRDBMS>
+<generatorID>358D275D-43D4-C47F-C2E8-2D5B656119AC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>F662AD60-24D5-B8A8-6ADD-D6F8163F5725</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="7093058E-05F7-0FA5-F404-8828E6A6BB25">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-16 18:56:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Person in charge for the current step]]></commentInRDBMS>
+<generatorID>DA0198DB-8A29-63AB-054C-8512C1333BB3</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8596FBE-9CBA-0C25-C51E-AD351149B6A0" name="JOB-CANDIDATE-IN-CHARGE PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-16 18:54:54 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB2961E1-225A-5763-4968-A9E682ADA4AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

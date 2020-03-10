@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="C5F877CE-A54E-FC92-CD02-1CB211FE590B" name="DISABLED">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:33:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Disabled people]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<additionalClassificationTypes>1,521FBBA0-9C44-7D90-1976-85F226CF9F5C</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="START DATE" id="7733441B-AC7F-D926-5F53-D19C91D0F2DF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:34:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Start date]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END DATE" id="EFD47E7D-0559-D27E-5807-E7E2472AE30F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:34:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[End date]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="81E1062E-E2B0-6363-E387-E2B6F7FED687">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:37:04 UTC</createdTime>
+<generatorID>E6422FC7-0616-4C48-1493-FDF37CEB6246</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HANDICAP ID" id="859CFA2C-1225-E32D-EB29-DFF1B553FFAC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:41:26 UTC</createdTime>
+<generatorID>C77F8236-AC8D-3F47-DE96-D4BE5276EF95</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>E37DC571-9C8F-998B-A6E6-074D53C511C1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HANDICAP-GRADE ID" id="8164610A-3A0C-FB74-B4B0-B08DC3E6AC85">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:42:21 UTC</createdTime>
+<generatorID>E31CC60E-ED17-8FCB-CC52-825166102F85</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>655A795A-325C-968F-2D41-CABA0BCFC01E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="200B59EE-E85E-A89D-837A-100DA0E1EFF3" name="DISABLED PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:40:57 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>81E1062E-E2B0-6363-E387-E2B6F7FED687</attributeRef>
+<attributeRef>859CFA2C-1225-E32D-EB29-DFF1B553FFAC</attributeRef>
+<attributeRef>8164610A-3A0C-FB74-B4B0-B08DC3E6AC85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,254 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EEA1272-CFD1-6166-3E97-DA9C219EF7E0" name="SICK-LEAVE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 10:34:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employees sick-leaves]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<additionalClassificationTypes>1,521FBBA0-9C44-7D90-1976-85F226CF9F5C</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SICK-LEAVE ID" id="3C9B9742-7193-C815-5B41-CDA9250C3D97">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 10:34:20 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="C566E4AB-1A47-528B-8D0E-5139A473CDEF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 13:32:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sick-leave beneficiar]]></commentInRDBMS>
+<generatorID>A1065A40-A0C1-1635-4604-63194C0A264D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CHILDREN CNP" id="C85F631B-C52E-BA0F-BD5F-755374BB468D">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:34:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Children's CNP]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F49DCA1E-4B43-6E03-6CD2-A5D4743BE93F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CERTIFICATE SERIAL" id="7BB73EEF-A6A9-3D33-043D-200DC8E2F149">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:35:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Certificate's serial]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CERTIFICATE NUMBER" id="0C9CEE01-A590-BE93-4F1B-D681DEB3A615">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:36:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Certificate's number]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>60F7C767-44E1-CB99-FC3D-206CCF6CB16A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SICK-LEAVE-INDEMNISATION ID" id="5798FD78-4113-B540-D262-C57EA7FBE7C1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 13:33:53 UTC</createdTime>
+<generatorID>F3F47A1E-7359-AE8E-EB38-3696FCEDBEE3</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>D5DD768D-BBEF-23C2-88E5-4B5ED85CA0D1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CERTIFICATE DATE" id="7BB6C660-BFFF-E0CA-E682-661BDB918D96">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:36:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Certificate's date]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INITIAL SERIAL" id="B3C69C4C-7EFB-A232-2A29-2D0A92B03FAC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:37:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Initial's certificate serial]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INITIAL NUMBER" id="FBB7FBE8-5E34-A2B9-1D05-3AA6CC8ABA50">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:37:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Initial's certificate number]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START DATE" id="C6116D98-8AD5-0E47-6D81-F0A313290D12">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:38:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sick-leave start date ]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END DATE" id="4CA2F39F-505E-DC93-D557-807254C625E5">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:38:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sick-leave end date ]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CALENDAR DAY" id="202A2E4B-0214-B262-A01A-10D277785F14">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:38:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Calendaristic number of days]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BICO-CODE" id="7C8453A1-4895-D0F5-BBD6-CF93637E9176">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:49:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bico code]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMERGENCY CODE" id="EF0E1ECF-2D17-5DB0-D20F-8404E1B0F82B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:51:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Emergency code]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXPERT ADVICE" id="65070D10-231E-C4BB-060E-3844AB145C89">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:52:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Expert advice]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D370C34-4258-D7C0-46F2-3E4C0AF2131D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRESCRIBER ID" id="CC8FD95A-6B84-E98E-C338-34E857729187">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:54:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Prescriber]]></commentInRDBMS>
+<generatorID>609766B4-A4D0-7C38-26F4-60261C862BFC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>BCCD3A96-104F-B418-F1BD-C299FC1F43ED</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9B1EA13-03F8-5198-58B4-17CDD4292E55" name="SICK-LEAVE PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 10:34:30 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C9B9742-7193-C815-5B41-CDA9250C3D97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

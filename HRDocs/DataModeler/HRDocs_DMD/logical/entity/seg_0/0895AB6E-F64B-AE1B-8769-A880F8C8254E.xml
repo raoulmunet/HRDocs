@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0895AB6E-F64B-AE1B-8769-A880F8C8254E" name="SICK-LEAVE-INDEMNISATION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 10:34:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Types of sick-leave indemnisations]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<additionalClassificationTypes>2,521FBBA0-9C44-7D90-1976-85F226CF9F5C</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SICK-LEAVE-INDEMNISATION ID" id="D5DD768D-BBEF-23C2-88E5-4B5ED85CA0D1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 10:35:09 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SICK-LEAVE-INDEMNISATION LABEL" id="24C8455D-3FC5-B028-5278-78C9346C1C7D">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 13:00:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Label]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SICK-LEAVE-INDEMNISATION PERCENTAGE" id="9BD01168-83F4-75EC-8924-F0B8530D6AD6">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 13:01:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Percentage]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<domain>B94C3E3F-8ACD-CA83-AAF5-42E36C40D255</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A41E5F28-EFC4-B904-83AF-2ED26EBF20B8" name="SICK-LEAVE-INDEMNISATION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 10:35:16 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5DD768D-BBEF-23C2-88E5-4B5ED85CA0D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BEBA8919-781A-0FA9-D2B2-55DED535A8FD" name="PERSONCERTIFICATION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 18:03:23 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<typeID>2D81A4E3-C16C-F2DC-2E96-E3679487F3C2</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PSOCER</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PERSONCERTIFICATION ID" id="3C9C0EAC-13B0-6DDF-09D5-99775D14785D">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 18:03:49 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CERTIFICATION DATE" id="4ABB53F4-2970-10B5-AA63-80626CA8392A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 18:04:36 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LSTCERTIFICATION ID" id="388DA07C-6352-4535-B198-38CB7B8FBF09">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 18:13:43 UTC</createdTime>
+<generatorID>62B3F5C4-DAD9-7543-5042-09EB3F91DFAF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>E828334B-2339-A507-5653-45805142E4E5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="6B886321-0E9A-B2FE-3988-AC0234A06CC4">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 18:14:33 UTC</createdTime>
+<generatorID>11EBD726-686E-7094-756A-1CF0797905E2</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BB57AA8-676D-53AC-F17E-A8F0CC429A54" name="{entity short name} PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 18:04:04 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C9C0EAC-13B0-6DDF-09D5-99775D14785D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

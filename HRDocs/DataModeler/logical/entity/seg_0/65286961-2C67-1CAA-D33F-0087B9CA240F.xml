@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65286961-2C67-1CAA-D33F-0087B9CA240F" name="FUNCTION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-18 20:48:20 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<typeID>F292CFEE-0DD9-3AD9-7513-EA975B9B9970</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TEAM ID" id="FBC8A1FD-4D56-70DD-E05F-39167ACB83ED">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:11:03 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FUNCTION" id="9D2FAF36-364B-5C58-26FD-07E98D4D276E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:12:16 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CDCA6B2B-C4BE-0882-23C1-811911DF594C" name="FUNCTION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:11:12 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>FBC8A1FD-4D56-70DD-E05F-39167ACB83ED</newElementsIDs>
+<usedAttributes>
+<attributeRef>FBC8A1FD-4D56-70DD-E05F-39167ACB83ED</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="742DADC5-F648-0FBB-E573-59893D42911D" name="FUNCTION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:13:04 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<newElementsIDs>9D2FAF36-364B-5C58-26FD-07E98D4D276E</newElementsIDs>
+<usedAttributes>
+<attributeRef>9D2FAF36-364B-5C58-26FD-07E98D4D276E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

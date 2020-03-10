@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="sub_view" objectID="011AE9EE-34BA-801A-D810-9251A6F59C89" name="PERSON" visible="false"/>
+   <object objectType="sub_view" objectID="311B59DF-3EA5-F72F-BF6C-FBAE92735C65" name="INSURANCE" visible="false"/>
+   <object objectType="sub_view" objectID="622CCA5A-96A8-8398-B115-AE90974D33F8" name="FORMATION" visible="false"/>
+   <object objectType="sub_view" objectID="73A7D2C3-A8EB-5C35-E20A-E31955D9C40B" name="PAYROLL" visible="true"/>
+   <object objectType="sub_view" objectID="75E558E7-086B-FCD7-04D3-021534C26D12" name="TEAM" visible="false"/>
+   <object objectType="sub_view" objectID="B77B2352-2A21-FADD-B10D-FB479B43A183" name="ATTENDANCE" visible="false"/>
+   <object objectType="main_view" objectID="C9B3C633-9A81-E0CE-2CEB-053F426634F8" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="D1550E2E-1DB2-3019-9631-4596D05DE241" name="RECRUITEMENT" visible="false"/>
+   <object objectType="sub_view" objectID="DA06ADFD-ED91-41E0-6220-FBE9CDBE0233" name="CONTRACT" visible="true"/>
+   <object objectType="sub_view" objectID="F1265EB8-999B-A9BE-DE5D-70F6F65511C4" name="KNOWLEDGE" visible="false"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

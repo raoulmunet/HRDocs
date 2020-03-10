@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A4D7FDE-28E0-46C0-3512-E6409DD45E85" name="INSLEVEL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<comment><![CDATA[Insurance levels]]></comment>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<importedID>6C3CFAB4-38B5-7828-7D14-1E03DE5C0336</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<typeID>24AC831C-3558-2DD1-6B94-04C202A354B1</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="INSLEVEL ID" id="B522E026-8546-C261-ED12-E51EC610C04F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<importedID>8D5601E4-A43D-6D12-816C-C04EF33A06E5</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSLEVEL" id="9B5B3763-3D74-1AEE-1344-C35617C629B2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<importedID>20F8EEF6-CC64-30E4-B67F-DCB9EC7B6D17</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09D10E05-2C3D-D6D7-0D05-403E197A5444" name="INSLEVEL PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>92B96908-4FC9-0563-D640-C249E6974B15</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B522E026-8546-C261-ED12-E51EC610C04F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D17C8447-4AD9-91C9-B100-D88ED8AE634D" name="INSLEVEL UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>E2AB7723-573D-4D58-FE8D-D2B36CA95732</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>9B5B3763-3D74-1AEE-1344-C35617C629B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

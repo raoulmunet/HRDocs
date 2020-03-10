@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CERTIFICATION LSTCERTIFICATION" directorySegmentName="seg_0" id="8C4A68D0-A1EB-3002-2E1F-E360B81D5F04">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 18:00:07 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>C64EB17F-6C39-6BC9-61FE-EA87F020CD4C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C75DE65-A8B8-7DCB-557F-6CBC53D88466</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>471A1115-4045-3728-0531-A77D0F9D7A09</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

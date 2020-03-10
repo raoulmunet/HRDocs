@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Create Formation model" id="D2BC7EFB-7970-4512-E86E-43E8E8E84712">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 13:44:55 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<requestDate>2020-03-08</requestDate>
+<status>Proposed</status>
+</ChangeRequest>

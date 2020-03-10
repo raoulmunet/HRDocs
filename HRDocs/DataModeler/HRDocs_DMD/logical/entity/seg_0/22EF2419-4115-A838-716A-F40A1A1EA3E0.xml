@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22EF2419-4115-A838-716A-F40A1A1EA3E0" name="VACATION-ACCRUAL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 10:56:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[All data concerning the acquired and spent vacation rights]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<typeID>4EFA75B5-4A05-1A6C-F9BD-C8CB70D884F1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VACATION-ACCRUAL ID" id="1057E73D-786F-0590-C636-ABF7CC68D99A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 10:58:12 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="26A674ED-C69A-0369-FEBB-E9FDCF7430B9">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 10:58:57 UTC</createdTime>
+<generatorID>E11C8D2F-0E4A-7EA9-EC39-921A7FD9E227</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCRUAL-DATE ID" id="9F8FAD58-F9F8-A2B8-7D28-F32E1B2BA270">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 11:02:15 UTC</createdTime>
+<generatorID>8BCF6C73-ACF9-22E4-3E5B-43A25F71E57D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>6505C628-CB1D-92ED-AC5B-D08B00C84F0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENTITLED" id="E9947363-A620-AE98-78BF-113CC6ADB74A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 11:32:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numbers of days to that the employee is entitled until to the accrual date]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REPORTED" id="93F75173-28C3-56D3-78C5-2310176A5021">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 11:34:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Reported days from the precedent exercice]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TAKEN" id="A7CB1FA2-B63D-2510-31D1-2E818457F041">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 11:39:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Number of days already taken in the current exercice]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BALANCE" id="04A6B523-F51B-3D27-2A09-2D86589E411C">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 11:44:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Balance - formula de introdus in "Derived"]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D9B8972-6EB9-9D61-8D3F-5C202D521145" name="VACATION-ACCRUAL PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 10:58:22 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1057E73D-786F-0590-C636-ABF7CC68D99A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

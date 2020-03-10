@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79984874-0203-8AF2-A5C7-F5A2794068D6" name="VACATION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 14:17:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vacations]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>4EFA75B5-4A05-1A6C-F9BD-C8CB70D884F1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VACATION ID" id="56DAA4B9-5A87-4119-690C-AA2E7E12C0A9">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 14:17:43 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VACATION DATE START" id="56BAFACA-9AE5-7F89-F9CD-93F3302228A4">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 14:18:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date start]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VACATION DATE END" id="A9D052E6-A91D-A76B-545E-853EAB5464BA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 14:18:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date end]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VACATION DAY" id="087FD8FD-B887-A1D2-AEC3-A830091DB13C">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 14:19:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Number of days]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="1C606200-968C-A018-A3BF-EF9C3A20327E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 14:20:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Person]]></commentInRDBMS>
+<generatorID>5F6561BC-3F3F-8007-8031-03E9B824D0F1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IS-APPROUVED" id="E2A3BAF2-9608-5C1F-5043-71311445085E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 14:30:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Approuved Y/N]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3413162-017B-A048-8823-DFFB76B529CC" name="VACATION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 14:17:51 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56DAA4B9-5A87-4119-690C-AA2E7E12C0A9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="58224DA2-75D5-8ADD-8498-CC169FAD23EF" name="VACATION START">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 12:39:15 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>56BAFACA-9AE5-7F89-F9CD-93F3302228A4,5F6561BC-3F3F-8007-8031-03E9B824D0F1</newElementsIDs>
+<usedAttributes>
+<attributeRef>56BAFACA-9AE5-7F89-F9CD-93F3302228A4</attributeRef>
+<attributeRef>1C606200-968C-A018-A3BF-EF9C3A20327E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="90723736-22A7-E669-05B7-729C31A1D4E9" name="VACATION END">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 12:39:43 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>A9D052E6-A91D-A76B-545E-853EAB5464BA,5F6561BC-3F3F-8007-8031-03E9B824D0F1</newElementsIDs>
+<usedAttributes>
+<attributeRef>A9D052E6-A91D-A76B-545E-853EAB5464BA</attributeRef>
+<attributeRef>1C606200-968C-A018-A3BF-EF9C3A20327E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

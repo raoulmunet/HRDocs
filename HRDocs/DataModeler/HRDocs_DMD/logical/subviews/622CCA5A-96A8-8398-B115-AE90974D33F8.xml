@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="FORMATION" id="622CCA5A-96A8-8398-B115-AE90974D33F8">
+<createdBy>raoul</createdBy>
+<modifiedBy>raoul</modifiedBy>
+<createdTime>2020-02-26 16:22:22 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<showComments>true</showComments>
+<showClassificationTypes>true</showClassificationTypes>
+</Diagram>

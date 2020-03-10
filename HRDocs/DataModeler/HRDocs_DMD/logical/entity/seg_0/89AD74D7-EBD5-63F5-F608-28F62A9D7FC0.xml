@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89AD74D7-EBD5-63F5-F608-28F62A9D7FC0" name="REQUEST-FOR-CHANGE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 10:25:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Request for change]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="REQUEST-FOR-CHANGE ID" id="3ADF5FB2-8F63-C97A-96CE-4A39383DE919">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 18:24:46 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REQUEST-FOR-CHANGE DATE" id="F67510BC-3C9C-5D4E-919B-57B5C6C499FF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 18:25:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[RFC date]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REQUEST-FOR-CHANGE REASON" id="6DEADBB8-0654-F341-2097-256D770F57EF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:25:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[RFC reason]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D370C34-4258-D7C0-46F2-3E4C0AF2131D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="FB5C1400-0E39-4278-7BFF-32F8A3267F52">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 12:49:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Person who initiate the RFC]]></commentInRDBMS>
+<generatorID>BC9FF254-BF99-D31E-6049-E51E4EE8B622</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REQUEST-FOR-CHANGE-CONFIGURATION ID" id="3CA202C7-1657-88F9-E2E7-5A506CFD32A1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 12:51:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Configuration of RFC (what do you want to have ?)]]></commentInRDBMS>
+<generatorID>296C8BA4-C251-55CA-3CB7-DAE056941135</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>D231F4C7-F6F7-C315-BF7A-1E11F9EE6EA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RFC-STATUS ID" id="04C60E05-BCF7-2568-CA2C-08F09DF8E384">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 12:53:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[RFC status]]></commentInRDBMS>
+<generatorID>B68B2A6C-D4BD-C84B-0CDB-3C8FE96DF0F4</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>C049C05E-9630-68A2-A7CB-30CD058E322F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0EED5EF-DA31-434B-57A9-0AB0FAA874B0" name="REQUEST-FOR-CHANGE PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 18:24:59 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3ADF5FB2-8F63-C97A-96CE-4A39383DE919</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

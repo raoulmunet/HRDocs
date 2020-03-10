@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INSURANCE INSURANCE-COMPANY FK" directorySegmentName="seg_0" id="78B7F0DA-7C27-BBF8-5703-D025386CE783">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:40:48 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>C9620E69-7B74-2483-E1AC-B9D1D0D2036D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8BC4EF98-D452-C3C7-0B28-8413EA1E3FED</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6DB14C5-B85C-3545-FAA8-9873C9DD49E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

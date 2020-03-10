@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA5AB2C1-0A5D-1987-C201-D7D6BD03CB59" name="REQUEST-FOR-CHANGE-CONFIGURATION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:28:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Requested team configuration]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>RFCCFG</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="REQUEST-FOR-CHANGE-CONFIGURATION ID" id="D231F4C7-F6F7-C315-BF7A-1E11F9EE6EA3">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:28:11 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REQUEST-FOR-CHANGE-CONFIGURATION NUMBER" id="597BE318-46B5-F2BE-1195-FB6EB6659031">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:28:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Number of the new positions in team]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEAM ID" id="8AC2B3E7-9D38-7D4D-4790-BCC90968A5A6">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:32:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Team]]></commentInRDBMS>
+<generatorID>6D536984-FC52-E5B8-6B33-A4C8E227C7DC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>16C2E9A6-9C6B-6EA7-E229-029F4E9FD746</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FUNCTION ID" id="4B880F37-3487-AE07-B4AE-D85D55C70626">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:30:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Function]]></commentInRDBMS>
+<generatorID>52983B80-52BF-03EE-A349-28204EBA5E2A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>FBC8A1FD-4D56-70DD-E05F-39167ACB83ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05E50AA4-6F21-F2AA-94F5-B558636F2A8D" name="REQUEST-FOR-CHANGE-CONFIGURATION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:28:11 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D231F4C7-F6F7-C315-BF7A-1E11F9EE6EA3</newElementsIDs>
+<usedAttributes>
+<attributeRef>D231F4C7-F6F7-C315-BF7A-1E11F9EE6EA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

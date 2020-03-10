@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC1AF127-40C9-81EB-F80B-1E14D58EA9FB" name="WAGE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Wages]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>D246235D-945F-58C0-BCD6-C42E8CB7EF52</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WAGE ID" id="806831CE-6DBF-2344-CCDA-C5F5A85B7563">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>6CC6A74E-2897-6C19-8E31-BAE8012C7E2B</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WAGE LABEL" id="B17B1357-F6A8-E486-5CDE-6D4481BFAAD0">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Wage label]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>E95FEBC5-A2A2-BB7B-38CC-8FAE23739146</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WAGE PERCENTAGE" id="9CAAEDB8-2CCA-1CC4-FAAB-6A6AA414E58E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Wage in percentage Y/N]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>A863FBB8-CC4D-548D-C42C-646773449F3B</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WAGE PERIODICITY" id="D0F383E1-0CB0-A8FF-5EE7-B0E08C4CD709">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Periodicity of the wage (Monthly, Quaterly, ...)]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>241B6FD1-0FAD-49EE-A972-5CACADF62022</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WAGE DATE FIRST" id="6CA0A56F-FDE4-5D2E-C310-A004CC320ECE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[First time when it is payed (This month, Next month, st of January, ...)]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>B122230A-96FF-B968-1793-3896EB415C94</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80823959-9D78-4A04-BB2F-16BC2EAF12DF" name="WAGE PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>46FE8137-3A9C-FB59-7154-0E16E02B6308</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>806831CE-6DBF-2344-CCDA-C5F5A85B7563</newElementsIDs>
+<usedAttributes>
+<attributeRef>806831CE-6DBF-2344-CCDA-C5F5A85B7563</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="71DEFD60-AABB-1478-3145-04207E7E3C36" name="WGE_WGE_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>C5F1CE4D-80CD-8614-8BC4-8937A1E2DF13</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>B17B1357-F6A8-E486-5CDE-6D4481BFAAD0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

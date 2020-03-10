@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REQUEST-FOR-CHANGE-LANGUAGE LIST-OF-LANGUAGE" directorySegmentName="seg_0" id="35CD8D7F-3E21-98D7-ADD3-09CB5C162067">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-02 11:22:15 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>2B8DD7AF-9F12-66A6-86F9-7FFB83008E2A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>82EE07BB-8412-081F-9443-68C2BC77971A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DAEE07A5-5692-F475-AE00-A8F4E4DB02F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Create Users (schema)" id="A6428002-AA5D-FC7C-8145-4B3ED9DF45E2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 13:38:53 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<reason>Create Users in order to split the model in multiple schemas :
+- life cycle
+- recruitement
+- attendance
+- formation
+- evaluation
+- payroll</reason>
+<requestDate>2020-03-08</requestDate>
+<status>Agreed</status>
+</ChangeRequest>

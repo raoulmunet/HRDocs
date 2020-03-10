@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERSON CITY 3" directorySegmentName="seg_0" id="B8EA93E0-AB38-29FC-90CE-BEAB02135BA7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<importedID>8A153FED-8F78-CDD9-C268-97DEFBA70479</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>E997ADD3-90D1-5374-EF57-BA854840E1C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B12A522F-9BC6-AD13-68AE-71BE4670D418</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6476F377-B250-7948-85FB-98346C69FA1B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

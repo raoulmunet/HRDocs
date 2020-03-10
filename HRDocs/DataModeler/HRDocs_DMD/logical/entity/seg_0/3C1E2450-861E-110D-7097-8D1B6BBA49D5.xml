@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C1E2450-861E-110D-7097-8D1B6BBA49D5" name="COUNTRY">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Countries]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>30801A18-E00A-193B-4772-158BFC5DDB3A</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>45E6BE49-92E7-12E3-8C0A-A1AB168A0012</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COUNTRY ID" id="09D3EB6A-0AB1-07B9-19AB-24F9ECCEEF4A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>124C0B2C-E56C-F58B-77C8-EB95CB54569B</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY NAME" id="C21724A6-7AC7-C0CF-EE75-DA0EC5E9B380">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country name]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>82E0EB58-C721-8D9A-7E68-D7AADD3D5860</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<domain>A6AB6E88-AF2B-44C4-B51D-8B6157B0881E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7618C44B-D872-F32A-3160-A13A57584930" name="COUNTRY PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>1BFF68B9-A89A-E34C-265D-54BE36533287</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>09D3EB6A-0AB1-07B9-19AB-24F9ECCEEF4A</newElementsIDs>
+<usedAttributes>
+<attributeRef>09D3EB6A-0AB1-07B9-19AB-24F9ECCEEF4A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="36E7B11B-91A9-17EA-ED87-D024780432CB" name="CTY_COUNTRY_NAME_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>9E8BAA1F-B3E4-F96D-C0E8-9326582CA371</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>C21724A6-7AC7-C0CF-EE75-DA0EC5E9B380</newElementsIDs>
+<usedAttributes>
+<attributeRef>C21724A6-7AC7-C0CF-EE75-DA0EC5E9B380</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

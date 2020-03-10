@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Event class="oracle.dbtools.crest.model.design.process.Event" name="Application" directorySegmentName="seg_0" id="F5A44CC2-E436-5798-B2F9-0FF798EE4B39">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 19:12:01 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<atTime>false</atTime>
+<dayOfMonth>0</dayOfMonth>
+<dayOfWeek>Monday thru Sunday</dayOfWeek>
+<eventType>2</eventType>
+<fiscal>true</fiscal>
+<frequency>0</frequency>
+<hour>0</hour>
+<minute>0</minute>
+<months>All Months</months>
+<onDay>true</onDay>
+<quarter>0</quarter>
+<timeFreq>0</timeFreq>
+<timesWhenRun>1</timesWhenRun>
+<year>0</year>
+</Event>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRACT CONTRACT-TYPE" directorySegmentName="seg_1" id="3F7F9632-F6A6-1E4D-DEB3-F96F9C75CDAC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 20:38:43 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<sourcePk>AF661676-FDEF-8C51-B5F1-9EA32E669825</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B5315BE-15AF-C136-D7AF-31C72F172B96</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A61A864-F4F9-0233-18A5-E215C55B7349</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

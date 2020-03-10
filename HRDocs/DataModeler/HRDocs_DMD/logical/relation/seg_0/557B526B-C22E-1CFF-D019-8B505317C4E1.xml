@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ADDITION WORK-LOCATION" directorySegmentName="seg_0" id="557B526B-C22E-1CFF-D019-8B505317C4E1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 15:12:58 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>40BB96D1-20D5-E45B-E44E-914F9AD89077</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1901A5F0-C831-CDA0-4DCE-E6DF830F8814</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C0B97907-BD8A-5F51-A3D0-2D429B9700FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

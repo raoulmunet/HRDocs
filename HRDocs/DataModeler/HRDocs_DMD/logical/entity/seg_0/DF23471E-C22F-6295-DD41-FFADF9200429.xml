@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF23471E-C22F-6295-DD41-FFADF9200429" name="DOCUMENT">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-02 18:52:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Documents]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>CE939052-FCED-54B7-DDDD-176194462DED</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DOCUMENT NAME" id="3D603891-E720-E0E7-6781-4E478743C986">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 11:21:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name including ID + / + FileName.ext (Eg: 896542654/picture.jpg)]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D370C34-4258-D7C0-46F2-3E4C0AF2131D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOC-ID" id="6533387D-1936-DFB9-3309-0B1122EDE16C">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 11:28:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID from sequence to include in the DOCNAME (=>DOCID/FileName)]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BLOB-CONTENT" id="C0A4A605-BDBF-27B2-1320-6E84056F3CEF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 11:33:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Blob content]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MIME-TYPE" id="115FCD3A-4F6A-FAF1-54D2-A16081217AE5">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 11:33:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Mime type]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D370C34-4258-D7C0-46F2-3E4C0AF2131D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLEAN-NAME" id="0B43C10B-9A7F-DA6C-9252-D4C8503C28E9">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 11:33:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Clean name (DOCNAME without slash)]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<formulaDesc>REPLACE(DOC_NAME, &apos;/&apos;)</formulaDesc>
+<sourceType>Derived</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D370C34-4258-D7C0-46F2-3E4C0AF2131D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USER-NAME" id="C3FF8336-CCB6-03DF-F42E-E52AAAA2EA24">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 11:40:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[User who uploaded the file]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UP DATE" id="F30EB6E8-CA0C-A27C-F48A-5137F487FD28">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 11:40:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Uploading date]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="3BB1C1D3-F2D0-6039-E4A0-9552CCD2B7CF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 11:41:47 UTC</createdTime>
+<generatorID>6AEFEAB1-251A-FAF4-4DFD-95C8916B90A7</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF8007B3-4877-AB9E-BABE-67BDB19A1A61" name="DOCUMENT PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 11:42:51 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D603891-E720-E0E7-6781-4E478743C986</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

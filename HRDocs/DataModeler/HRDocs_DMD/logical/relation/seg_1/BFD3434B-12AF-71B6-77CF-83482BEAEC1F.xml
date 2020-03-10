@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BANK-EMPLOYEE BANK" directorySegmentName="seg_1" id="BFD3434B-12AF-71B6-77CF-83482BEAEC1F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:55:05 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<sourcePk>828E06FA-880D-0425-0968-55095DD9E578</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7818FB0-D131-4FAF-FB1E-267468352292</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD64DD01-787D-C1DB-716E-6C856146D63F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

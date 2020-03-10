@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F562A17-3E84-BB6D-90B0-6D327738D9DF" name="JOB">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-18 20:47:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Job announcement]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JOB ID" id="E61FF1B1-A908-444D-705D-0B3638709632">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 20:21:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESOURCE-REQUEST ID" id="96B6577F-D6FD-3789-D215-F8317ED5ACD1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 13:17:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Resource request]]></commentInRDBMS>
+<generatorID>3A4295F1-D5D3-C587-7A4B-88315B11A1C9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>EDF21F44-07CF-E395-E0B2-AC6A7192661C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JOB TITLE" id="005523F6-946F-1A8E-6D55-F4EA55942304">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 20:21:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Job title]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F73CDC1-863F-99A7-3A73-327B03BA47C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JOB ANNOUNCEMENT" id="BC8AE86B-E299-BBA2-525C-AC3E34B074A7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 20:21:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Job announcement]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D370C34-4258-D7C0-46F2-3E4C0AF2131D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IS-ACTIVE" id="EAB66149-C605-2C6E-2952-31D699F5BF58">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 20:22:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Active / Inactive]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6202BA1-3FAB-311F-3C81-0DF596F1EE98" name="JOB PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 20:21:10 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E61FF1B1-A908-444D-705D-0B3638709632</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

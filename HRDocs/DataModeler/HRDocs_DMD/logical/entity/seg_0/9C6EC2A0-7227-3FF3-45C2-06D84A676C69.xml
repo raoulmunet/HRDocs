@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C6EC2A0-7227-3FF3-45C2-06D84A676C69" name="CERTIFICATION-ORGANIZATION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 17:14:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Organisation delivering certificates]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>2D81A4E3-C16C-F2DC-2E96-E3679487F3C2</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CERORG</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CERTIFICATION-ORGANIZATION ID" id="1C3E4EBE-9C56-E843-0808-2E63057BF778">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 17:24:27 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CERTIFICATION-ORGANIZATION NAME" id="19241837-0C1F-2979-F25A-EA62FEA7C475">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 17:25:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Organization name]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F73CDC1-863F-99A7-3A73-327B03BA47C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8A39515-A014-58B8-46D5-7B45DE6B7E85" name="CERTIFICATION-ORGANIZATION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 17:25:04 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1C3E4EBE-9C56-E843-0808-2E63057BF778</newElementsIDs>
+<usedAttributes>
+<attributeRef>1C3E4EBE-9C56-E843-0808-2E63057BF778</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="CE78CB73-9596-AF8B-4B22-D8B401D1E3C9" name="CERORG_NAME_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 17:27:34 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>19241837-0C1F-2979-F25A-EA62FEA7C475</newElementsIDs>
+<usedAttributes>
+<attributeRef>19241837-0C1F-2979-F25A-EA62FEA7C475</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

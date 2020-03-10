@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F7B4950-CB1A-EE18-437B-5EED612ECC91" name="ATTENDANCE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 12:52:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attendances]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<typeID>4EFA75B5-4A05-1A6C-F9BD-C8CB70D884F1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ATTENDANCE ID" id="14097022-739D-0FC4-E8D4-13FE9A3F2656">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 12:52:24 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTENDANCE DATE" id="D4691379-164E-7119-9136-637D12098589">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 13:33:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attendance date]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOUR START" id="ED2EEADB-7037-BF12-1F27-341C7E514E23">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 13:05:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Start hour]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4B68B1AA-60BD-77CC-6626-3771583FCE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOUR END" id="4F359CEF-5892-FC45-089B-D02F0795107B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 13:05:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[End hour]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4B68B1AA-60BD-77CC-6626-3771583FCE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="8030C5BF-3194-4C1E-4CF4-78FB557F0089">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 12:52:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Person]]></commentInRDBMS>
+<generatorID>F5E8E456-BE98-72AA-3309-852C4DE70927</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOLIDAY ID" id="474F82B3-84CF-32C5-023D-C27FEE3BE150">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 13:03:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Holiday]]></commentInRDBMS>
+<generatorID>A42A9DFF-7FFD-D10C-9E89-25D6AF605B4C</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>630FEF72-4FFC-3D72-266E-8EFA9A155C03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ABSENCE ID" id="7077CFC2-3737-6841-BCF6-341F6C786C0A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-11 15:24:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Absence]]></commentInRDBMS>
+<generatorID>79A13521-E743-5796-E7D0-5056B042B81B</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>83A56915-3FB3-E2E6-E4C4-AF2344E08422</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E612E0CC-E3D0-58B6-D295-0541D9EF7762" name="ATTENDANCE PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 12:52:31 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14097022-739D-0FC4-E8D4-13FE9A3F2656</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="395014C6-668E-546B-DC4F-5AA40602A6ED" name="ATTENDANCE START">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 13:34:38 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<newElementsIDs>D4691379-164E-7119-9136-637D12098589,F5E8E456-BE98-72AA-3309-852C4DE70927</newElementsIDs>
+<usedAttributes>
+<attributeRef>D4691379-164E-7119-9136-637D12098589</attributeRef>
+<attributeRef>8030C5BF-3194-4C1E-4CF4-78FB557F0089</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="1FFC7934-63FF-D6A8-6066-F72D526CCE1E" name="ATTENDANCE END">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-28 13:35:53 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<newElementsIDs>D4691379-164E-7119-9136-637D12098589,4F359CEF-5892-FC45-089B-D02F0795107B,F5E8E456-BE98-72AA-3309-852C4DE70927</newElementsIDs>
+<usedAttributes>
+<attributeRef>D4691379-164E-7119-9136-637D12098589</attributeRef>
+<attributeRef>4F359CEF-5892-FC45-089B-D02F0795107B</attributeRef>
+<attributeRef>8030C5BF-3194-4C1E-4CF4-78FB557F0089</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

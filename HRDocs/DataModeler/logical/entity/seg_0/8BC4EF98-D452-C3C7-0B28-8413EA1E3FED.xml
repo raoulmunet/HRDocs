@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BC4EF98-D452-C3C7-0B28-8413EA1E3FED" name="INSCOMP">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<comment><![CDATA[Insurance companies]]></comment>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<importedID>E37B7E04-F2FB-655D-EFF7-F6893550CBDC</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<typeID>24AC831C-3558-2DD1-6B94-04C202A354B1</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="INSCOMP ID" id="41BF7D52-B11F-1E6A-17C7-887E95D0FDDA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<importedID>1D8A73A5-6772-3707-F7CA-4B9F59B83E07</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSCOMP" id="428C5261-76BF-16ED-25E4-D8918358E368">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<importedID>B201E3F4-AC53-1491-BC5B-1C6FD7E94649</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9620E69-7B74-2483-E1AC-B9D1D0D2036D" name="INSCOMP PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>6B314510-1A01-0EAC-C517-7ADAAF5A119F</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41BF7D52-B11F-1E6A-17C7-887E95D0FDDA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EBECBCDB-4DF9-6AB6-C8D8-5D3B109AB400" name="INSCOMP UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>648DB179-3FB2-D2CD-ABE9-3E81C11ECDBB</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>428C5261-76BF-16ED-25E4-D8918358E368</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="C02FEA9B-E7D7-828B-D2DA-BAF93E3B2D2F" name="HEALTH-INSURANCE-FUND-BENEFICIAR">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:19:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Heath insurance fund to which the contribution is payed]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HEALTH-INSURANCE-FUND-BENEFICIAR ID" id="7585762B-7977-A283-1B87-F1F564FD3E3D">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:20:28 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START DATE" id="317407EF-09C8-4520-2850-DB2846432277">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:20:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Start date]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IS-ACTIVE" id="13C2EF73-C26B-14C5-21A2-BB133E371262">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:22:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Is active]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HEALTH-INSURANCE-FUND ID" id="B93AAA81-AC31-A05E-C81E-4007A2F06390">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:23:11 UTC</createdTime>
+<generatorID>41333744-ADEE-B33F-28F2-E2224A3174D5</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>739BEFF5-8A8B-6147-D78D-0FC9B8ECC1DD</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="92DC8200-468E-1076-E211-32503E280765">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 13:31:24 UTC</createdTime>
+<generatorID>3E200C12-A48B-393C-1849-68F0684F3DCE</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3CFCF0C-0374-0D60-B4EE-EECF1811A661" name="HEALTH-INSURANCE-FUND-BENEFICIAR PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 12:20:53 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7585762B-7977-A283-1B87-F1F564FD3E3D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

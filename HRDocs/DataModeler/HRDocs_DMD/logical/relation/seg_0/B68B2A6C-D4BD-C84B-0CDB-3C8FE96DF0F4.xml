@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REQUEST-FOR-CHANGE RFC-STATUS" directorySegmentName="seg_0" id="B68B2A6C-D4BD-C84B-0CDB-3C8FE96DF0F4">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 12:53:22 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>55FF6539-DB4A-27A4-4AE7-05840619460F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8AD0891F-4877-8E14-6C2F-53F728747734</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89AD74D7-EBD5-63F5-F608-28F62A9D7FC0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

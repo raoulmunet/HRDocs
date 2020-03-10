@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SICK-LEAVE SICK-LEAVE-INDEMNISATION" directorySegmentName="seg_1" id="F3F47A1E-7359-AE8E-EB38-3696FCEDBEE3">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-29 13:33:53 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<sourcePk>A41E5F28-EFC4-B904-83AF-2ED26EBF20B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0895AB6E-F64B-AE1B-8769-A880F8C8254E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4EEA1272-CFD1-6166-3E97-DA9C219EF7E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

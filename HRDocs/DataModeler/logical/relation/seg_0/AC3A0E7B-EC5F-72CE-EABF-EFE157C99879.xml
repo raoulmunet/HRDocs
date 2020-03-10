@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LSTSKL SKILL" directorySegmentName="seg_0" id="AC3A0E7B-EC5F-72CE-EABF-EFE157C99879">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 12:45:01 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>EF386C5E-C7F6-B726-9D37-023BBB203679</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1BDB0636-4BD2-27FF-E971-BD70F9B385C3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4638B2B3-E045-2112-C71E-0F8A78F718D1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

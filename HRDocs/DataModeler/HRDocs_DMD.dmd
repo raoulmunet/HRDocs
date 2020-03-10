@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HRDocs_DMD" id="33949B3F-46B1-A849-28F2-6B57B2399CED" version="3.5">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:19:45 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD_17Jan20_J</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>33949B3F-46B1-A849-28F2-6B57B2399CED</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="68D730C2-4E74-3BC8-D6FE-F356A208F7EA">
+<designStoragePath>C:\VAG_BOX\MyProjects\HRDocs\HRDocs_DMD</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

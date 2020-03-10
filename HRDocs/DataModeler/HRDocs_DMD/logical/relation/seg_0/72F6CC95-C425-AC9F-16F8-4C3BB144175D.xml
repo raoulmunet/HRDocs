@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KNOWN-SKILL LIST-OF-SKILL" directorySegmentName="seg_0" id="72F6CC95-C425-AC9F-16F8-4C3BB144175D">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-02 12:15:59 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>8D5B27A7-5CFD-C84A-D1F5-2E1780F2CBB2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4638B2B3-E045-2112-C71E-0F8A78F718D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94510F30-60E0-B4E6-DA7D-B4D9E21B0CFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

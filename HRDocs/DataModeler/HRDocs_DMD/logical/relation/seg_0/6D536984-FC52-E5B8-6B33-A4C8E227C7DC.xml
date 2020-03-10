@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REQUEST-FOR-CHANGE-CONFIGURATION TEAM FK" directorySegmentName="seg_0" id="6D536984-FC52-E5B8-6B33-A4C8E227C7DC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:32:53 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>A7B1374F-D01B-9600-417E-0E182C5E8956</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FCB5BFFD-5ADB-803F-3AE7-38DF54B7C377</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA5AB2C1-0A5D-1987-C201-D7D6BD03CB59</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

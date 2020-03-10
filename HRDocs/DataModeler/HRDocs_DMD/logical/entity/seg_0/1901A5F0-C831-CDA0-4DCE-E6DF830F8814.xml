@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1901A5F0-C831-CDA0-4DCE-E6DF830F8814" name="WORK-LOCATION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 15:08:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Work locations in the society]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WORK-LOCATION ID" id="59B3226B-4A1B-D50C-FDAC-7BC24E57B323">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 15:09:19 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WORK-LOCATION NAME" id="D9E27721-B765-8E4C-724B-5A8A869A1F9B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 15:09:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location name]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WORK-LOCATION ADDRESS" id="C1B47184-A2B6-B697-FCB3-E6DDBEBF8276">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 15:10:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location address]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>49E42A46-29BE-0B90-3F67-552D22D03F39</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40BB96D1-20D5-E45B-E44E-914F9AD89077" name="WORK-LOCATION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 15:09:30 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59B3226B-4A1B-D50C-FDAC-7BC24E57B323</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9A4716F6-AD4D-0C96-6876-4094D555FDCC" name="WORK-LOCATION NAME">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 15:11:22 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>D9E27721-B765-8E4C-724B-5A8A869A1F9B</newElementsIDs>
+<usedAttributes>
+<attributeRef>D9E27721-B765-8E4C-724B-5A8A869A1F9B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

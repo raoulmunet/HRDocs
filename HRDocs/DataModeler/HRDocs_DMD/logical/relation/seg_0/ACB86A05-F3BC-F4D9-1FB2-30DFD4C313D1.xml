@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ADDITION CONTRACT FK" directorySegmentName="seg_0" id="ACB86A05-F3BC-F4D9-1FB2-30DFD4C313D1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>CE34F1C6-26D8-97A0-64B3-BED0E3B8AE93</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>0EF7C40A-521D-2053-3219-F3F014A81F83</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7A61A864-F4F9-0233-18A5-E215C55B7349</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C0B97907-BD8A-5F51-A3D0-2D429B9700FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

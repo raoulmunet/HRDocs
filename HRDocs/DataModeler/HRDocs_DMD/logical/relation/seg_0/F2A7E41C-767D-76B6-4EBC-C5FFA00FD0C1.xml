@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LIST-OF-CERTIFICATION CERTIFICATION-ORGANIZATION FK" directorySegmentName="seg_0" id="F2A7E41C-767D-76B6-4EBC-C5FFA00FD0C1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 18:00:41 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>B8A39515-A014-58B8-46D5-7B45DE6B7E85</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C6EC2A0-7227-3FF3-45C2-06D84A676C69</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>471A1115-4045-3728-0531-A77D0F9D7A09</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

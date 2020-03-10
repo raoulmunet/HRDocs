@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGION COUNTRY" directorySegmentName="seg_0" id="CC50F009-6742-7015-EB33-9AC8C7D66BDE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<importedID>9E96CB4B-E9E0-EAE1-CBF9-97D9F70902BA</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>7618C44B-D872-F32A-3160-A13A57584930</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3C1E2450-861E-110D-7097-8D1B6BBA49D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>01216757-6577-1FCB-03E3-A413B0C5151E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPENDENT PERSON" directorySegmentName="seg_1" id="918AB413-B10D-F009-C7E7-DBF51E40DB16">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-24 15:15:17 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<sourcePk>F95DDF5B-1F17-FBC0-F7C9-2EA7798DBB55</sourcePk>
+<targetPk>9A11308C-6A90-BDF7-489D-8F0E27FA8121</targetPk>
+<dominantRole>6476F377-B250-7948-85FB-98346C69FA1B</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39276857-793F-36D8-A4D2-C5149AF0E8BC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6476F377-B250-7948-85FB-98346C69FA1B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

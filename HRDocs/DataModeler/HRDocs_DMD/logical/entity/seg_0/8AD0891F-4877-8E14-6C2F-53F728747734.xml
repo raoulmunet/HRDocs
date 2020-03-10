@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AD0891F-4877-8E14-6C2F-53F728747734" name="RFC-STATUS">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:21:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Request for change status]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RFC-STATUS ID" id="C049C05E-9630-68A2-A7CB-30CD058E322F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:21:19 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RFC-STATUS LABEL" id="43A97642-1924-6CDA-22B9-52D1180AECCC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:21:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[RFC Status label]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55FF6539-DB4A-27A4-4AE7-05840619460F" name="RFC-STATUS PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:21:25 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C049C05E-9630-68A2-A7CB-30CD058E322F</newElementsIDs>
+<usedAttributes>
+<attributeRef>C049C05E-9630-68A2-A7CB-30CD058E322F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="667DCBDF-4BF1-9BF8-7923-BC0125A6E696" name="RFCSTS_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-26 10:22:33 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<newElementsIDs>43A97642-1924-6CDA-22B9-52D1180AECCC</newElementsIDs>
+<usedAttributes>
+<attributeRef>43A97642-1924-6CDA-22B9-52D1180AECCC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

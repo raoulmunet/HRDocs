@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ADDITION WORKING-DEAL" directorySegmentName="seg_0" id="FB67F9FE-2F6C-DDD8-9AF5-7275497965CD">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-29 14:52:17 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>35DB2628-F648-3C8F-4172-35872BCFB92C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68A1F8ED-E2A1-4138-2517-CB992931EC44</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C0B97907-BD8A-5F51-A3D0-2D429B9700FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

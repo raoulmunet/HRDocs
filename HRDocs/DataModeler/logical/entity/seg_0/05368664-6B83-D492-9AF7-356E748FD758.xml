@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05368664-6B83-D492-9AF7-356E748FD758" name="TEAMCONFIGURATION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:01:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Team configuration]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<typeID>F292CFEE-0DD9-3AD9-7513-EA975B9B9970</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TEMCFG</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TEAMCONFIGURATION ID" id="767D5AB8-83D5-CF84-36CF-7AAAD896EE5A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:02:32 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STANDARD" id="5A200A07-BF48-3373-3438-62990C3B1082">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:02:55 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEAM ID" id="81BAAA39-334F-D591-D95E-F7CE643F0E13">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:05:38 UTC</createdTime>
+<generatorID>1AF84C75-72E1-610B-696D-E4FB5EE4E753</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>16C2E9A6-9C6B-6EA7-E229-029F4E9FD746</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LSTSKL ID" id="D8807599-A902-5E11-8648-436F549C90D2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:06:35 UTC</createdTime>
+<generatorID>7F21CA53-04FF-11A5-10B0-E2900A028F50</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>8002C020-74DD-D9A2-07BD-B37F5862C7FF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LSTLNG ID" id="7C9378CD-AA2A-EAAD-737A-7A78AAA30B23">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:08:29 UTC</createdTime>
+<generatorID>A81ECA85-C118-7308-D327-81F194A0F9C9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>8C53D825-0F23-4211-5196-EE41B2084F09</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEAM ID1" id="B667E2AA-B248-D00E-CA6A-EFD5EFCE5D5F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:11:43 UTC</createdTime>
+<generatorID>68A96EB2-191B-873D-BD92-C636BD3567B9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<referedAttribute>FBC8A1FD-4D56-70DD-E05F-39167ACB83ED</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C5F7FD5-AED4-B845-E59C-1E8041ED2CEA" name="TEAMCONFIGURATION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:02:51 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>767D5AB8-83D5-CF84-36CF-7AAAD896EE5A</newElementsIDs>
+<usedAttributes>
+<attributeRef>767D5AB8-83D5-CF84-36CF-7AAAD896EE5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SUSPENSION SUSPENSION-REASON" directorySegmentName="seg_1" id="75F2D801-4E63-FD5E-C970-EBD367143DCD">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-18 09:36:24 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>420E2BD3-CBFF-6C82-E42E-D9CC1C14629B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1C86C9B-3EED-8D15-23CB-75E5C7A34C03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7C9A5EE5-C896-A1A3-1BCD-AE4F61C9F44D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

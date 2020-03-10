@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERSON PERSON-QUALITY FK" directorySegmentName="seg_0" id="D17385AF-373B-7F76-AA4D-DB583F0E3B6B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-25 10:46:44 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<sourcePk>D6D81A93-F8B9-415A-28DE-8DDAB5B6C4F1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CFBC28D-48B8-6B07-C827-AEC6A2CE0F2E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6476F377-B250-7948-85FB-98346C69FA1B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

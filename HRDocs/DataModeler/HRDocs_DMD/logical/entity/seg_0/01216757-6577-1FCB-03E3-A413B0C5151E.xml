@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01216757-6577-1FCB-03E3-A413B0C5151E" name="REGION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Regions]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>5702D089-8D10-27C3-92A7-122046007310</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>45E6BE49-92E7-12E3-8C0A-A1AB168A0012</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="REGION ID" id="AC554914-50B4-7471-39E8-7F2B0B050185">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>29C8C102-5901-F3D1-B1ED-F852D66B23D0</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION NAME" id="B7E9EDE2-6160-7DF9-90FD-020A0F93BE68">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Region name]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>2FD994E4-D838-5CFD-FABE-116C9A1E75CC</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<domain>A6AB6E88-AF2B-44C4-B51D-8B6157B0881E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY ID" id="5698B658-2219-A807-3FA2-55B72E12AFB6">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country]]></commentInRDBMS>
+<generatorID>CC50F009-6742-7015-EB33-9AC8C7D66BDE</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>E38356C3-529D-0E6E-9F55-DBAED89E386F</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>09D3EB6A-0AB1-07B9-19AB-24F9ECCEEF4A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFF926A0-F803-56C2-DEE0-649301AFE21C" name="REGION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>C527891C-C26A-CAD5-D97C-9C14BC90A53C</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>AC554914-50B4-7471-39E8-7F2B0B050185</newElementsIDs>
+<usedAttributes>
+<attributeRef>AC554914-50B4-7471-39E8-7F2B0B050185</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B3936B39-231A-55FC-DFA0-64053DE637D6" name="REG_REG_NAME_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-17 11:22:47 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>F8C262A5-35AF-5D0D-5D84-8547FBFC3325</importedID>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<newElementsIDs>B7E9EDE2-6160-7DF9-90FD-020A0F93BE68</newElementsIDs>
+<usedAttributes>
+<attributeRef>B7E9EDE2-6160-7DF9-90FD-020A0F93BE68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

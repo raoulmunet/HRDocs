@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRACT MEAL-ALLOWANCE" directorySegmentName="seg_1" id="18771DDB-C887-FD07-956A-C3A7F2292DDD">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-27 11:09:04 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<sourcePk>9F078831-242F-134C-5BCC-7430ABA57A16</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5E6CF60F-822F-C708-348E-7DF464BC4469</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A61A864-F4F9-0233-18A5-E215C55B7349</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

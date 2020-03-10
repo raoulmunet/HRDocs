@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDCF28D1-D15E-098A-11AC-759F49EBCE9A" name="PAYROLL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 19:49:32 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<typeID>521FBBA0-9C44-7D90-1976-85F226CF9F5C</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PAYROLL ID" id="FB0A6118-C14D-D58B-F47D-5A206A332D94">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 19:49:56 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADVANCE" id="AF2F989F-F001-AC9D-B257-354EE30A0190">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 19:50:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment in advance]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>F43C5292-6523-8381-9CE3-22E23FADACB0</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEDUCTION" id="7880F10C-F579-7E5A-417C-5DF5D483CE92">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 19:51:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Deductions (deductions, sequestrations, etc)]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>F43C5292-6523-8381-9CE3-22E23FADACB0</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TAX-EXEMPT" id="BEA01912-894E-5159-4D35-D80BF49402A7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 19:52:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Is it tax-extempt ?]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRIVATE-PENSION-PILLAR-3" id="1D6A248B-3783-2D5F-C50D-CA90D473E9CE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 19:54:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contribution to a private pension pilar 3]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>F43C5292-6523-8381-9CE3-22E23FADACB0</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="E44A9FA5-9782-07E0-5A4D-11405B137BE0">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 20:12:03 UTC</createdTime>
+<generatorID>3D2F6FAC-8B39-3871-7DB1-044A7C17921A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<referedAttribute>F016A9F8-9CBE-DB62-7EEB-633BC6E653DA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HAS-DEDUCTION" id="452A012F-BD60-29CC-3D77-53C2E2A187B2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:18:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Beneficies of decuctions]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START DATE" id="F9CB8935-7B3B-C25C-1B56-72AEC427E7DA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:19:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Start date for deductions]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3850FC1F-29D8-A2B1-745C-4E5BF343C433" name="PAYROLL PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-26 19:50:05 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB0A6118-C14D-D58B-F47D-5A206A332D94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

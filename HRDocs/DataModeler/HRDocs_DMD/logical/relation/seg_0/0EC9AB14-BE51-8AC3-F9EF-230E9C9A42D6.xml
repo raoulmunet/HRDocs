@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JOB-CANDIDATE APPLICATION-STATUS" directorySegmentName="seg_0" id="0EC9AB14-BE51-8AC3-F9EF-230E9C9A42D6">
+<createdBy>raoul</createdBy>
+<createdTime>2020-02-16 18:33:09 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>B9C38033-B6B6-6757-8EF6-DDE7A359AE2F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>24C23C2E-9E0B-BC95-394A-338CF350BCC0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10F814BA-8A23-7D20-F477-AC6A63A73C10</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

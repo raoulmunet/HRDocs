@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DISABLED HANDICAP-GRADE" directorySegmentName="seg_1" id="E31CC60E-ED17-8FCB-CC52-825166102F85">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-01 12:42:21 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+</engineerTo>
+<sourcePk>7C5FCF78-28F8-2352-C538-537DBC808492</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77251C85-5543-6119-E740-F835E7B08272</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C5F877CE-A54E-FC92-CD02-1CB211FE590B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

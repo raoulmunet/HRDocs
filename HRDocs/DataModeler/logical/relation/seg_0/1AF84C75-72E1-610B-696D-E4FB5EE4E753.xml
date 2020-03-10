@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TEAMCONFIGURATION TEAM" directorySegmentName="seg_0" id="1AF84C75-72E1-610B-696D-E4FB5EE4E753">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:05:38 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="true"/>
+</engineerTo>
+<sourcePk>A7B1374F-D01B-9600-417E-0E182C5E8956</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FCB5BFFD-5ADB-803F-3AE7-38DF54B7C377</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05368664-6B83-D492-9AF7-356E748FD758</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05368664-6B83-D492-9AF7-356E748FD758" name="TEAM-CONFIGURATION">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:01:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Team configuration]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<typeID>F292CFEE-0DD9-3AD9-7513-EA975B9B9970</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TEMCFG</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TEAM-CONFIGURATION ID" id="767D5AB8-83D5-CF84-36CF-7AAAD896EE5A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:02:32 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMBER" id="5A200A07-BF48-3373-3438-62990C3B1082">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:02:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Number of resources]]></commentInRDBMS>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEAM ID" id="81BAAA39-334F-D591-D95E-F7CE643F0E13">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:05:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Team]]></commentInRDBMS>
+<generatorID>1AF84C75-72E1-610B-696D-E4FB5EE4E753</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>16C2E9A6-9C6B-6EA7-E229-029F4E9FD746</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FUNCTION ID" id="B667E2AA-B248-D00E-CA6A-EFD5EFCE5D5F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:11:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Function]]></commentInRDBMS>
+<generatorID>68A96EB2-191B-873D-BD92-C636BD3567B9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<referedAttribute>FBC8A1FD-4D56-70DD-E05F-39167ACB83ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C5F7FD5-AED4-B845-E59C-1E8041ED2CEA" name="TEAM-CONFIGURATION PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-01-19 22:02:51 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BB56A352-CFD4-1775-3008-87EE414A82CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>767D5AB8-83D5-CF84-36CF-7AAAD896EE5A</newElementsIDs>
+<usedAttributes>
+<attributeRef>767D5AB8-83D5-CF84-36CF-7AAAD896EE5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

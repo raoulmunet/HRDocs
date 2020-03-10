@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="sub_view" objectID="149D9B0D-68BB-C59F-D3A0-93D91A3186B9" name="From_LM_TEAM" visible="false"/>
+   <object objectType="sub_view" objectID="4B02FF58-2FCD-E082-4C6D-8BE5B813EA3E" name="From_LM_KNOWLEDGE" visible="false"/>
+   <object objectType="sub_view" objectID="507CF36A-0465-4070-A6F1-C190FBF39B23" name="From_LM_ATTENDANCE" visible="false"/>
+   <object objectType="main_view" objectID="70F15649-8B3B-87ED-8F3A-5D98ACF5C70E" name="Relational_1" visible="true"/>
+   <object objectType="sub_view" objectID="A194361F-33C1-3FFB-7C98-BAF913023296" name="From_LM_RECRUITEMENT" visible="false"/>
+   <object objectType="sub_view" objectID="A8BEFE13-8393-E938-028A-7B8FB7E0E97C" name="From_LM_CONTRACT" visible="false"/>
+   <object objectType="sub_view" objectID="C2A2707B-281D-0631-0C45-D518F6135743" name="From_LM_INSURANCE" visible="false"/>
+   <object objectType="sub_view" objectID="E8FE7893-1991-7A39-7AD2-7CD69B4DFC61" name="From_LM_PERSON" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

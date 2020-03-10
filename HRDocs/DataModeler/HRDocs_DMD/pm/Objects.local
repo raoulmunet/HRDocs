@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.process.ProcessModel>
-   <object objectType="Event" objectID="DE46BA9E-8405-DECA-C103-422D198C990F" name="Check Disponible Jobs" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Event" propertyParentId="91F7D51B-422C-E6EF-E099-CD7760561A18" propertySourceId="" propertyTargetId=""/>
    <object objectType="Event" objectID="F5A44CC2-E436-5798-B2F9-0FF798EE4B39" name="Application" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Event" propertyParentId="91F7D51B-422C-E6EF-E099-CD7760561A18" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Event" objectID="DE46BA9E-8405-DECA-C103-422D198C990F" name="Check Disponible Jobs" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Event" propertyParentId="91F7D51B-422C-E6EF-E099-CD7760561A18" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="650ACAD5-6A11-AE53-8356-DFEA3BE14C33" name="Job" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="91F7D51B-422C-E6EF-E099-CD7760561A18" propertySourceId="" propertyTargetId=""/>
    <object objectType="InfoStore" objectID="1DD8B45A-A3EE-956A-F658-BC4CC9288A8E" name="List of languages for job" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="91F7D51B-422C-E6EF-E099-CD7760561A18" propertySourceId="" propertyTargetId=""/>
    <object objectType="InfoStore" objectID="3C453911-9D41-AB43-9F72-384D1C26A67F" name="List of skills for job" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="91F7D51B-422C-E6EF-E099-CD7760561A18" propertySourceId="" propertyTargetId=""/>
-   <object objectType="InfoStore" objectID="650ACAD5-6A11-AE53-8356-DFEA3BE14C33" name="Job" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="91F7D51B-422C-E6EF-E099-CD7760561A18" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.process.ProcessModel>

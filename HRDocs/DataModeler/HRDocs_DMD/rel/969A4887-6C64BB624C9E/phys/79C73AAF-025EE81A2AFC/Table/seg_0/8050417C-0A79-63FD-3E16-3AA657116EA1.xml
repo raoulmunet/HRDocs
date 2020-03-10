@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FCT" directorySegmentName="seg_0" id="8050417C-0A79-63FD-3E16-3AA657116EA1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FCT_LBL" id="4344D354-AF91-1276-BA36-62B158415B77">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FCT_ID" id="ECD789C6-1ABE-DB94-7260-9979616D5EF6">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FCT_PK" id="0B205CB7-80F3-76F6-076F-D59C930E16DD">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="FCT_FCT_LBL_UN" id="39B4945B-4A31-A8A4-7697-D4B7E448F3FB">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

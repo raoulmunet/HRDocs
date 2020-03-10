@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79037ED1-864C-364D-4AF0-57E70CACF1CA" name="HND">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Types od handicap]]></commentInRDBMS>
+<generatorID>9442B58D-3094-9913-18E1-6FE0BE37C3CC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>521FBBA0-9C44-7D90-1976-85F226CF9F5C</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HND_ID" id="44BB8537-F999-8752-7353-2BBC137A84C9">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>E37DC571-9C8F-998B-A6E6-074D53C511C1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HND_LBL" id="F20092D2-7FF4-2D4C-D9C4-3E4322CD0522">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Handicap label]]></commentInRDBMS>
+<generatorID>9DF7C7CD-0BDA-7542-18D9-5AF4A1EEC5B6</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9016D7FE-14D2-BFCD-5D52-D374D7C0DA29" name="HND_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>E57851EE-746F-A984-C28B-185669077431</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44BB8537-F999-8752-7353-2BBC137A84C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="513F8FC4-5B96-8E2F-39E5-D6AC3F70175C" name="HND_HND_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>62750BE1-E1C0-42D6-36A6-31628F3B9761</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F20092D2-7FF4-2D4C-D9C4-3E4322CD0522"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

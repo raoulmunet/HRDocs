@@ -1,0 +1,285 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD4C4411-8053-31C3-CB22-D4B84BDB41EB" name="ADD">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Addition to the work contract]]></commentInRDBMS>
+<generatorID>C0B97907-BD8A-5F51-A3D0-2D429B9700FC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADD_ID" id="718CFF39-DECB-79AC-AC14-CA9D0D3909CD">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>631E0013-033B-2F63-DD95-9697EBBFD707</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_NUM" id="8C5CB95D-BC27-B0D9-6A3E-E4137776F75E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Addition number]]></commentInRDBMS>
+<generatorID>40D1AE9A-04E1-B30A-E6AD-CCC589161759</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<domain>3609ABC2-3B32-B44B-4D45-558EBEF45ADC</domain>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_DTE" id="FB63DB46-988E-99DB-C725-EC5063B2BE5B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Addition date]]></commentInRDBMS>
+<generatorID>38B388DA-CAD7-2628-61A2-496B3C89529F</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_DTE_EFF" id="C96E2CB5-2002-5750-D763-9412F5DC6445">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Addition date effect]]></commentInRDBMS>
+<generatorID>E5B7256A-CBA4-9E97-3486-31DCEC0C811B</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CTR_ID" id="1CC8B85C-0A90-CCDE-E7A8-CD726DCAB922">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contract]]></commentInRDBMS>
+<generatorID>16E48116-7192-5AEE-1388-78A55E818E74</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="822A2A6B-74FE-72E8-6256-C43DEBF47175" referredColumn="6FD42403-B797-F789-CF1E-5B9BCFB4D119"/>
+</associations>
+</Column>
+<Column name="PRC_ID" id="C1645D6B-3166-50B3-5075-0E5B09BA9445">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Occupation (COR)]]></commentInRDBMS>
+<generatorID>DEF3BE67-8155-C8D1-7820-D2DA6863CC56</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6990F3F6-F09D-FF55-AD9E-4066E437FB1C" referredColumn="78A17364-9631-F805-E8F9-EF06A732C3D5"/>
+</associations>
+</Column>
+<Column name="WKNRM_ID" id="3CFB331B-C03D-F51B-24FF-A68B7ACD4835">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Working deal (distribution of work time, number of hours ...)]]></commentInRDBMS>
+<generatorID>60BB3D80-E120-3168-D1E8-4F2D482C650A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A3052C8-C692-B572-D2CC-891F32CEC9DF" referredColumn="BEAA0217-2FB6-FDB5-8539-420131716EAE"/>
+</associations>
+</Column>
+<Column name="WKL_ID" id="6AE2D49B-ADDF-B85C-0DC8-8C1358C445F0">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Work location]]></commentInRDBMS>
+<generatorID>260188AE-1B7A-F0CA-80FB-EE741A2671C4</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAE192CF-8408-02C6-7F25-650ECE3E93EA" referredColumn="578D8C10-D07A-D3E1-50C2-9A5DEDBDA480"/>
+</associations>
+</Column>
+<Column name="EXTT" id="D77CFEB4-35E8-F682-F54A-062D56470874">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Extension of the fixed-term contract]]></commentInRDBMS>
+<generatorID>EBFBDEC1-366D-A850-6C2E-98C72A149750</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERM" id="9979015D-0D3A-184D-D066-EB8C66CA51A7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Transformation of the fixed-term contract into permanent contract]]></commentInRDBMS>
+<generatorID>184DFBD4-F0C2-108C-3AF1-BDBF8A681D08</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTE_STT" id="17AE89D4-FBF9-4691-EF47-48144DEF2B89">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Extension start date]]></commentInRDBMS>
+<generatorID>C90D8D87-DEC4-CF1E-C553-C6EC8CEDA3E1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTE_END" id="8D97AD25-4681-AB58-193C-DDD4FE4464BB">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Extension end date]]></commentInRDBMS>
+<generatorID>2836B7CB-3DAB-5400-9796-F19E57D7E114</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER" id="F55EC4B0-DBAB-D5EC-1892-2742289DBF16">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Extension period (in moths)]]></commentInRDBMS>
+<generatorID>5BEA33AD-30F9-8B20-A68A-79F14B31672B</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE220987-4DAB-AC8D-6215-8F239B9577B2" name="ADD_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>A3F5E4DB-792D-C926-E09B-B0AEE0CFC564</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718CFF39-DECB-79AC-AC14-CA9D0D3909CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8744AA08-915B-CE42-DF51-2E8E8F42D762" name="ADD_ADD_NUM_CTR_ID_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<comment><![CDATA[Unique addition number for each contract]]></comment>
+<generatorID>68E6E90C-C41B-57E4-9F21-01AA4DF8E9DE</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C5CB95D-BC27-B0D9-6A3E-E4137776F75E"/>
+<colUsage columnID="1CC8B85C-0A90-CCDE-E7A8-CD726DCAB922"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4203D24-2E64-2F28-CB21-5C757BC633D4" name="ADD_CTR_ID_ADD_DTE_EFF_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<comment><![CDATA[Unique date effect for each contract]]></comment>
+<generatorID>33163459-5CF8-F2A0-F0DE-695FBD45DD6D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CC8B85C-0A90-CCDE-E7A8-CD726DCAB922"/>
+<colUsage columnID="C96E2CB5-2002-5750-D763-9412F5DC6445"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25301059-101B-DE76-D431-28280002557A" name="ADD_CTR_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>ACB86A05-F3BC-F4D9-1FB2-30DFD4C313D1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CC8B85C-0A90-CCDE-E7A8-CD726DCAB922"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5371E596-7C11-2955-20EA-693A35AAD579" name="ADD_PRC_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>5D8F762F-984C-D3AF-F18E-E7767315DA69</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1645D6B-3166-50B3-5075-0E5B09BA9445"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9A110B3-A3E0-F662-D744-37927BA02ECF" name="ADD_WKNRM_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>FB67F9FE-2F6C-DDD8-9AF5-7275497965CD</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CFB331B-C03D-F51B-24FF-A68B7ACD4835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE8C9B98-6C99-3972-F22F-9AAD96402345" name="ADD_WKL_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>557B526B-C22E-1CFF-D019-8B505317C4E1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AE2D49B-ADDF-B85C-0DC8-8C1358C445F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

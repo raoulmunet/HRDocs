@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E83E4A3-1C77-FEF6-5C69-F2B87C939C19" name="INTJC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>C1FCFF14-082E-4CC8-711F-32D0BC86D5AD</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTJC_ID" id="51673E21-6FBF-B0ED-E9F2-A80D08740563">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>FCD61966-DE92-A6C7-65B9-D475E85A8420</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOBCND_ID" id="98D971AC-E382-DA3D-47BB-0E858A576F51">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Job - Candidate pair]]></commentInRDBMS>
+<generatorID>911F0492-DDCC-1DF9-F928-32107335BC0A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B856D02-6ECA-90C2-B4F2-AF20C60FEEA0" referredColumn="9BF2ACCD-CD18-0BE4-CD7C-D95F079AEA3F"/>
+</associations>
+</Column>
+<Column name="PSO_ID" id="3408F410-B8AC-D9CE-4DC6-792DE61FC0AA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Intervenor]]></commentInRDBMS>
+<generatorID>F7C93D84-3667-5150-8F9A-4801FDFA9C2C</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B40A8DEC-4A5B-FE22-E745-E7D389D3BF5C" referredColumn="D3178F78-44C1-7793-49AE-C2376C226E9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F33DE295-B562-874F-87F2-6F4AD2D1C1B2" name="INTJC_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>C0347219-D469-E5DB-C5B0-55A809AA63C0</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51673E21-6FBF-B0ED-E9F2-A80D08740563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B5A2315-D583-95FD-07F1-301B4B8C4152" name="INTJC_JOBCND_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>5DA49EA8-64B3-21A8-A974-B42DF7F124C1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98D971AC-E382-DA3D-47BB-0E858A576F51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C06A302-E559-A92E-F342-AC46D5854380" name="INTJC_PSO_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>9437EE1E-8667-1B80-02D5-D4EFE6F92474</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3408F410-B8AC-D9CE-4DC6-792DE61FC0AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

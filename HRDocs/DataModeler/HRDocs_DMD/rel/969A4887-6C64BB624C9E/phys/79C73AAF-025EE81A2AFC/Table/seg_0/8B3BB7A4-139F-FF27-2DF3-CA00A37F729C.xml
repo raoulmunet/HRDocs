@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="INSLVL" directorySegmentName="seg_0" id="8B3BB7A4-139F-FF27-2DF3-CA00A37F729C">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INSLVL_ID" id="9DEB789D-1E67-8A15-E909-AAB0BF05F8E2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="INSLVL_LBL" id="D27E590C-CE44-41E1-4337-BD5D9CB4F8E2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSLVL_HRCH" id="F3B3904A-4BA7-2291-1E43-6CD9ECFCA122">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INSLVL_PK" id="E8123D36-FE1C-F111-E571-A6F6726122D9">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INSLVL_INSLVL_LBL_UN" id="06200DFA-B0EA-927E-66F1-BAACDF5D4404">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

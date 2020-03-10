@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="B01FA7C9-759C-1C04-EF93-7A223A29BBC3" name="WKL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Work locations in the society]]></commentInRDBMS>
+<generatorID>1901A5F0-C831-CDA0-4DCE-E6DF830F8814</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WKL_ID" id="578D8C10-D07A-D3E1-50C2-9A5DEDBDA480">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>59B3226B-4A1B-D50C-FDAC-7BC24E57B323</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WKL_NAME" id="48FB67EC-C45B-634B-EA2E-5B88686A2DE3">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location name]]></commentInRDBMS>
+<generatorID>D9E27721-B765-8E4C-724B-5A8A869A1F9B</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WKL_ADR" id="DC3BD91B-804B-F87D-701A-A8E17EB9749D">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location address]]></commentInRDBMS>
+<generatorID>C1B47184-A2B6-B697-FCB3-E6DDBEBF8276</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>49E42A46-29BE-0B90-3F67-552D22D03F39</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87394914-A641-1FEC-8BB2-491746777629" name="WKL_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>40BB96D1-20D5-E45B-E44E-914F9AD89077</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="578D8C10-D07A-D3E1-50C2-9A5DEDBDA480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07F36F5C-7FC3-DA7C-4F27-D56FBA967520" name="WKL_WKL_NAME_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>9A4716F6-AD4D-0C96-6876-4094D555FDCC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48FB67EC-C45B-634B-EA2E-5B88686A2DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

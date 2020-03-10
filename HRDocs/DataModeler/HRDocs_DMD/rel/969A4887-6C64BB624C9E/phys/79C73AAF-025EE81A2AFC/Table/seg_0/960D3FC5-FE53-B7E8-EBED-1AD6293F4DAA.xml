@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HNDGRD" directorySegmentName="seg_0" id="960D3FC5-FE53-B7E8-EBED-1AD6293F4DAA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HNDGRD_LBL" id="3DAF6F5C-E083-4286-46A4-C38550DBAB72">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HNDGRD_ID" id="4C1A948B-6F49-3448-C963-0383F9F45186">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HNDGRD_PK" id="2C1605DF-3AEE-0A52-F492-E638DBDC1475">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="HNDGRD_HNDGRD_LBL_UN" id="8C982E00-3C89-9274-F7BF-227014F0D94B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

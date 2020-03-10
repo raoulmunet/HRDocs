@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="INSCMP" directorySegmentName="seg_0" id="20EAD534-7CA2-EB2C-6080-76767725A0EE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INSCMP_ID" id="6194F9F1-C02E-32EF-2CD7-1BD9C16EF6A1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="INSCMP_NAME" id="C6253B99-ECD2-6578-6CD4-8AA596E66068">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INSCMP_PK" id="3433ABAB-62A3-5542-5C2B-E06741FE7509">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INSCMP_INSCMP_NAME_UN" id="0D18D2D1-4072-C1DA-E8D1-00BF19A7348B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="INSFNDBNF" directorySegmentName="seg_0" id="9C0F9E12-42BE-F202-8BEE-45E231F6E510">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STT_DTE" id="286D5D53-BDC0-0277-F1D2-A9DD64C92B7C">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATV" id="53F0705D-3E0F-2D28-92E0-86A3DC5C51FC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSFND_ID" id="67938A56-4746-5645-8534-E9785BDE6018">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PSO_ID" id="7ECD167D-1584-B524-FE2B-298893985EE4">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSFNDBNF_ID" id="DC8E3D0F-D68C-E77D-EB4B-9C0B0C9529E2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="INSFNDBNF_INSFND_FK" id="5E209B14-F26C-FE49-AC32-D6734F64D7DF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="INSFNDBNF_PSO_FK" id="FAE6B489-C1BD-E211-AE76-CE15BD04E265">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INSFNDBNF_PK" id="6E58B4D5-5EC3-F9A0-A0AA-1403EF7891B1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 14:04:02 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

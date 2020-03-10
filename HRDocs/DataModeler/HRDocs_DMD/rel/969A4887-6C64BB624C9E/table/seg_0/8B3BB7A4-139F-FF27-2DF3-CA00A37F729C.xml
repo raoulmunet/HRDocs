@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B3BB7A4-139F-FF27-2DF3-CA00A37F729C" name="INSLVL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<comment><![CDATA[Insurance levels]]></comment>
+<commentInRDBMS><![CDATA[Levels of insurance]]></commentInRDBMS>
+<generatorID>9A4D7FDE-28E0-46C0-3512-E6409DD45E85</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>24AC831C-3558-2DD1-6B94-04C202A354B1</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INSLVL_ID" id="9DEB789D-1E67-8A15-E909-AAB0BF05F8E2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>B522E026-8546-C261-ED12-E51EC610C04F</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSLVL_LBL" id="D27E590C-CE44-41E1-4337-BD5D9CB4F8E2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Insurance level label]]></commentInRDBMS>
+<generatorID>9B5B3763-3D74-1AEE-1344-C35617C629B2</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0B7608A-B615-5E22-947E-1FEFDD4D57DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSLVL_HRCH" id="F3B3904A-4BA7-2291-1E43-6CD9ECFCA122">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Insurance level hierarchy (level number)]]></commentInRDBMS>
+<generatorID>B0297B66-46A8-2284-27E8-C35F4295F5E2</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8123D36-FE1C-F111-E571-A6F6726122D9" name="INSLVL_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>09D10E05-2C3D-D6D7-0D05-403E197A5444</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DEB789D-1E67-8A15-E909-AAB0BF05F8E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06200DFA-B0EA-927E-66F1-BAACDF5D4404" name="INSLVL_INSLVL_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>D17C8447-4AD9-91C9-B100-D88ED8AE634D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D27E590C-CE44-41E1-4337-BD5D9CB4F8E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

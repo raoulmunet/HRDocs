@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A3052C8-C692-B572-D2CC-891F32CEC9DF" containerWithKeyObject="DD4C4411-8053-31C3-CB22-D4B84BDB41EB" localFKIndex="B9A110B3-A3E0-F662-D744-37927BA02ECF" name="ADD_WKNRM_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>FB67F9FE-2F6C-DDD8-9AF5-7275497965CD</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>WKNRM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B7AC1D3-04BC-63CC-FE96-38DCA2EB508C</referredTableID>
+<keyObject>9AF145A2-FCC2-5D87-7F0B-C4AE9891450F</keyObject>
+<referredKeyID>9AF145A2-FCC2-5D87-7F0B-C4AE9891450F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>WKNRM_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

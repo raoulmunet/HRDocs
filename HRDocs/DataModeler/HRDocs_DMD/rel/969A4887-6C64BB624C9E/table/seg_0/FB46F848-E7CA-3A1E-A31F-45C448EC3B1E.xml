@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB46F848-E7CA-3A1E-A31F-45C448EC3B1E" name="PRSC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>D32B35FE-38FA-AC1F-776F-40BE348969CE</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>521FBBA0-9C44-7D90-1976-85F226CF9F5C</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRSC_ID" id="64A48C1C-502A-3899-FB09-A937CFA7FA2C">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>BCCD3A96-104F-B418-F1BD-C299FC1F43ED</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRSC_LBL" id="4468CCBF-3DD8-E43B-DDC0-6D33BBA7E009">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Label]]></commentInRDBMS>
+<generatorID>CEC4DBE7-33A1-8574-9D37-59FC4912FF34</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A64B6CC-4730-E42B-DE76-9414BE24CC1B" name="PRSC_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>62D7DC2E-C871-7897-22E9-2E1614FD4408</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64A48C1C-502A-3899-FB09-A937CFA7FA2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2CEF7F7-E9D1-6B8B-1D9B-5CBB02D010E8" name="PRSC_PRSC_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>2B0182AF-BB65-A3D9-B312-80B4E17718BB</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4468CCBF-3DD8-E43B-DDC0-6D33BBA7E009"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

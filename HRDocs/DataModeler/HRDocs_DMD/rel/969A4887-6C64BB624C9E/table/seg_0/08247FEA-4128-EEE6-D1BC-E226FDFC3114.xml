@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08247FEA-4128-EEE6-D1BC-E226FDFC3114" name="CER">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Certifications]]></commentInRDBMS>
+<generatorID>9C75DE65-A8B8-7DCB-557F-6CBC53D88466</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>2D81A4E3-C16C-F2DC-2E96-E3679487F3C2</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<abbreviation>CER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CER_ID" id="FA50CCDE-5C45-B655-15BC-3FC3D29B0D0B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>7C8B6AC8-2FAB-B435-6718-1D053DC39DF2</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CER_LBL" id="5D50E9F5-E52B-710A-743B-5D1942924B1D">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Certification label]]></commentInRDBMS>
+<generatorID>0176A6AD-FF97-AC81-808F-8293459CB812</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>56595AD7-C67E-052E-4373-BCBAD1811DCF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CER_VLB" id="C6D32CD3-0269-C41E-99FD-D9601C4B482B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Certification valability (in years (zero for infinit))]]></commentInRDBMS>
+<generatorID>45BA0EDE-D952-EDCE-6424-97A50924CBC4</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<constraintName>CERVALABILITY</constraintName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="536900A0-0493-444A-81C5-CAA2FE90EAAE" name="CER_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>C64EB17F-6C39-6BC9-61FE-EA87F020CD4C</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA50CCDE-5C45-B655-15BC-3FC3D29B0D0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

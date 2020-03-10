@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="2B7AC1D3-04BC-63CC-FE96-38DCA2EB508C" name="WKNRM">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Working deal (Full time / Part time / Day time / Night time ...)]]></commentInRDBMS>
+<generatorID>68A1F8ED-E2A1-4138-2517-CB992931EC44</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WKNRM_ID" id="BEAA0217-2FB6-FDB5-8539-420131716EAE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>B3775C6C-E23A-93C0-3D87-D0C8018FF7AF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WKNRM_LBL" id="C0A0EB9B-5C10-E499-58BC-7DFC7CBF347C">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Working norm label (8 hours / Day, Inequal, ....)]]></commentInRDBMS>
+<generatorID>54509FDA-35F2-D919-86B5-59C8085AA072</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WKNRM_HH" id="43F180E5-0D96-BE61-C9DB-150B7633FB24">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Number of working hours in a day]]></commentInRDBMS>
+<generatorID>23DE90E2-12BF-07A1-3A06-F0F08927AE4A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AF145A2-FCC2-5D87-7F0B-C4AE9891450F" name="WKNRM_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>35DB2628-F648-3C8F-4172-35872BCFB92C</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEAA0217-2FB6-FDB5-8539-420131716EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="421D2A8D-AD96-2EBB-629F-62EA91740BC8" name="WKNRM_WKNRM_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>3D9FAD72-CE64-DBD9-B685-D33C9715B96A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0A0EB9B-5C10-E499-58BC-7DFC7CBF347C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

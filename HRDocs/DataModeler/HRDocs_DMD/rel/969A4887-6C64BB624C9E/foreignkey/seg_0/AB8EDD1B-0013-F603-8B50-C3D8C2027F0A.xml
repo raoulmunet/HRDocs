@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB8EDD1B-0013-F603-8B50-C3D8C2027F0A" containerWithKeyObject="9C0F9E12-42BE-F202-8BEE-45E231F6E510" localFKIndex="FAE6B489-C1BD-E211-AE76-CE15BD04E265" name="INSFNDBNF_PSO_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>3E200C12-A48B-393C-1849-68F0684F3DCE</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>PSO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7FA03C75-6DBD-A900-B5C6-558EBB7061A1</referredTableID>
+<keyObject>843D075F-3B39-9107-15EF-98C42D753626</keyObject>
+<referredKeyID>843D075F-3B39-9107-15EF-98C42D753626</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PSO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="77D2E00D-DED2-B606-9032-D6066D723744" containerWithKeyObject="7FA03C75-6DBD-A900-B5C6-558EBB7061A1" localFKIndex="4ECAAD27-0332-3E2B-F6B2-F4CD8A7DFBE0" name="PSO_IDT_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>A19FFF33-A9C7-94C0-2028-6059CB05C9E5</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>IDT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E3A2DE1-1CE5-C61E-52BD-16227BEFA364</referredTableID>
+<keyObject>603B75D2-BE49-D7B3-3AAD-4356B2AB07EC</keyObject>
+<referredKeyID>603B75D2-BE49-D7B3-3AAD-4356B2AB07EC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IDT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

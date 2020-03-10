@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E26C82C4-0CE9-502C-A75D-CB41920879EC" name="SCKLVINDMN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Types of sick-leave indemnisations]]></commentInRDBMS>
+<generatorID>0895AB6E-F64B-AE1B-8769-A880F8C8254E</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>521FBBA0-9C44-7D90-1976-85F226CF9F5C</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SCKLVINDMN_ID" id="42755847-7929-694E-9051-FC26A24D7DC7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>D5DD768D-BBEF-23C2-88E5-4B5ED85CA0D1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCKLVINDMN_LBL" id="B25B0ED0-91F3-CD1B-6CF0-8D06BB36D648">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Label]]></commentInRDBMS>
+<generatorID>24C8455D-3FC5-B028-5278-78C9346C1C7D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCKLVINDMN_PCT" id="CD77F486-64A7-1764-0967-EF9C997D485B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Percentage]]></commentInRDBMS>
+<generatorID>9BD01168-83F4-75EC-8924-F0B8530D6AD6</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<domain>B94C3E3F-8ACD-CA83-AAF5-42E36C40D255</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52D5CA9A-ABFF-FF69-9AF8-1675D6BDFF63" name="SCKLVINDMN_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>A41E5F28-EFC4-B904-83AF-2ED26EBF20B8</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42755847-7929-694E-9051-FC26A24D7DC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

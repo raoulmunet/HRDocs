@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7D7E779-1A06-DD78-686F-68CC85AB73F4" containerWithKeyObject="A9998A9A-A90D-195D-F62E-C0C908196341" localFKIndex="988D34DC-D2A9-98FF-14DD-EF81344CDF61" name="CTR_VACPLN_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>252C6212-FAFF-50EB-9D2F-E63D3459EFB9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>VACPLN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>118C02F9-97CC-60C9-9A38-4541DE4F02D3</referredTableID>
+<keyObject>FDE97BAD-DDE4-8042-9076-210FB628C597</keyObject>
+<referredKeyID>FDE97BAD-DDE4-8042-9076-210FB628C597</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VACPLN_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

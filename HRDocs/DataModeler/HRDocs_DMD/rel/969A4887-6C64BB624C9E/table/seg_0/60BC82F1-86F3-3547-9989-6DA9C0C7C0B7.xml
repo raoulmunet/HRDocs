@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60BC82F1-86F3-3547-9989-6DA9C0C7C0B7" name="LGG">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Languages]]></commentInRDBMS>
+<generatorID>1A0A4C9D-59B3-1955-B2AA-C37FFB453C42</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>2D81A4E3-C16C-F2DC-2E96-E3679487F3C2</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<abbreviation>LNG</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LGG_ID" id="562C0AFF-C796-CD24-417F-381FB259EE97">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>75EC844F-BB68-7922-DA8A-3A8E1972AE10</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LGG_NAME" id="3D10FDEF-B19D-395F-960F-BCB32FABCE0A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Language name]]></commentInRDBMS>
+<generatorID>7CA3435C-5ED9-F53D-87B2-2569F6972901</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49E7046F-B3BC-4333-AD35-708E48BD8320" name="LGG_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>D04C8463-84F9-81C1-CFDF-63C18C0EC88C</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="562C0AFF-C796-CD24-417F-381FB259EE97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35AC7E4F-FECE-3343-C0FF-4D08DCD10E9D" name="LGG_LGG_NAME_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>E22B4A2F-9C73-35C3-3EFF-ACF02F224685</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D10FDEF-B19D-395F-960F-BCB32FABCE0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

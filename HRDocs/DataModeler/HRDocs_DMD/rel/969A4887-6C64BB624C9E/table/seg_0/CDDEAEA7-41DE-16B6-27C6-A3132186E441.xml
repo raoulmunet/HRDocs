@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDDEAEA7-41DE-16B6-27C6-A3132186E441" name="RLS">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relationships]]></commentInRDBMS>
+<generatorID>1DF11D39-CBA7-EC47-7EB8-EF6FF8F9331C</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>CE939052-FCED-54B7-DDDD-176194462DED</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RLS_ID" id="C8F2DDC7-F240-C9D6-2030-013E0B08589C">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>D1CB6483-EED5-430C-D7FE-DC0F5A3C401A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RLS_LBL" id="B3D3DEF4-87F5-148C-EA8E-EC3337ADC4D4">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Relationship label]]></commentInRDBMS>
+<generatorID>548A6D87-7B3F-9D8E-0A8B-32F31D9D3216</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4792A8A9-347F-6325-0265-D29A7A99B992" name="RLS_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>9297B3DB-F900-5A0E-0443-64871AF35CF1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8F2DDC7-F240-C9D6-2030-013E0B08589C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94848588-C25C-C7CE-21A8-C9188EADAB1B" name="RLS_RLS_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>8F332248-C14B-CDBF-BB96-DFB44907D1B2</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3D3DEF4-87F5-148C-EA8E-EC3337ADC4D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

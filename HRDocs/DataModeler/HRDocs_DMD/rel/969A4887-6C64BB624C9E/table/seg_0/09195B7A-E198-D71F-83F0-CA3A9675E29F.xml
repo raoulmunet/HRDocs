@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09195B7A-E198-D71F-83F0-CA3A9675E29F" name="LSTSKL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[List of  skill and level]]></commentInRDBMS>
+<generatorID>4638B2B3-E045-2112-C71E-0F8A78F718D1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>2D81A4E3-C16C-F2DC-2E96-E3679487F3C2</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LSTSKL_ID" id="222DC176-76B0-609B-3F9A-AF521E6DB41B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>8002C020-74DD-D9A2-07BD-B37F5862C7FF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SKLLVL_ID" id="713984F6-1D6E-74F2-9867-EC8DAC1EDC16">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Skill level]]></commentInRDBMS>
+<generatorID>6E2A602C-12AC-BD11-E0A0-3BFDA3895256</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FECBE9B-2E26-523E-5E46-484635589B2D" referredColumn="425DB319-4116-32A5-C121-48E59F596039"/>
+</associations>
+</Column>
+<Column name="SKL_ID" id="B6C2A678-22D2-5C3C-A00D-5A8B165869F4">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Skill]]></commentInRDBMS>
+<generatorID>21860BC2-1967-9A53-9763-C3F68B5F4541</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E31E0A22-BBCB-A4B8-1F78-5E89874B65B5" referredColumn="D29C70A4-F728-6175-F27D-F89B1A4DF238"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FE79FD3-1894-77A4-3D22-E392E33499D7" name="LSTSKL_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>8D5B27A7-5CFD-C84A-D1F5-2E1780F2CBB2</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="222DC176-76B0-609B-3F9A-AF521E6DB41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16EAE3C2-481E-0B0B-3428-EE549497F192" name="LSTSKL_SKL_ID_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>DC48B76C-1114-2FA2-1A63-C07D1BE3E220</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6C2A678-22D2-5C3C-A00D-5A8B165869F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A84C1212-946C-B8CA-83FD-E3D67B12124E" name="LSTSKL_SKL_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>AC3A0E7B-EC5F-72CE-EABF-EFE157C99879</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6C2A678-22D2-5C3C-A00D-5A8B165869F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42AB69C7-CFDA-55D0-2016-B1B89D36AD87" name="LSTSKL_SKLLVL_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>5B288B92-4D6B-3409-49E2-48409E3BA4DC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="713984F6-1D6E-74F2-9867-EC8DAC1EDC16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

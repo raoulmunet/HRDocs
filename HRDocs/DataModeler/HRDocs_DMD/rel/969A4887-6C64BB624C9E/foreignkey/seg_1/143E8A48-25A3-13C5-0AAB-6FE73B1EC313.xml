@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="143E8A48-25A3-13C5-0AAB-6FE73B1EC313" containerWithKeyObject="80E1F3E1-7407-D4FE-3E11-C7541D30C79E" localFKIndex="390607A2-DB9A-9924-F069-30D99B852775" name="SCKLV_PRSC_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>609766B4-A4D0-7C38-26F4-60261C862BFC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>PRSC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB46F848-E7CA-3A1E-A31F-45C448EC3B1E</referredTableID>
+<keyObject>3A64B6CC-4730-E42B-DE76-9414BE24CC1B</keyObject>
+<referredKeyID>3A64B6CC-4730-E42B-DE76-9414BE24CC1B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRSC_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

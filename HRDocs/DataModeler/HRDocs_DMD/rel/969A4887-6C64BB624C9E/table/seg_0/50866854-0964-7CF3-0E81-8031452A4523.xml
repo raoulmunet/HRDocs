@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50866854-0964-7CF3-0E81-8031452A4523" name="MEALALL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Daaily meal allowance (restaurant ticket)]]></commentInRDBMS>
+<generatorID>5E6CF60F-822F-C708-348E-7DF464BC4469</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>521FBBA0-9C44-7D90-1976-85F226CF9F5C</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEALALL_ID" id="F8B0E15E-8F5B-70B0-135C-14D472A47824">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>3C25DD76-FC0F-7D53-2E12-B334B51C5EF4</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEALALL_LBL" id="CEC28E4E-A772-949D-9C72-AED4F022B9D6">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Meal allowance label]]></commentInRDBMS>
+<generatorID>8287906F-7790-5C1A-299D-290AEC0CCCD4</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEALALL_VAL" id="4352230C-BF54-1BCD-7649-70834C5DA5E6">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Value per day]]></commentInRDBMS>
+<generatorID>A2C36C30-72D0-AE76-C7AB-2957C2CBBDD6</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>F43C5292-6523-8381-9CE3-22E23FADACB0</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A1DE2D8-E3A5-6830-137D-0D93C8623750" name="MEALALL_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>9F078831-242F-134C-5BCC-7430ABA57A16</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8B0E15E-8F5B-70B0-135C-14D472A47824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A620499-93CB-7ABF-437D-97F1696491C8" name="MEALALL_MEALALL_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>D304C93A-47C3-2EB7-8BCA-F18B7E7B80BC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEC28E4E-A772-949D-9C72-AED4F022B9D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="366E74EB-938F-63A2-D96B-BED0E0CE5FC5" name="TEM">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Teams]]></commentInRDBMS>
+<generatorID>FCB5BFFD-5ADB-803F-3AE7-38DF54B7C377</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>F292CFEE-0DD9-3AD9-7513-EA975B9B9970</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEM_ID" id="89F8AD97-EAA0-76D2-0EC1-0964A3604726">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>16C2E9A6-9C6B-6EA7-E229-029F4E9FD746</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEM_NAME" id="04E0A5E6-4460-78D5-B38E-B9A9C76EAC9E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Team name]]></commentInRDBMS>
+<generatorID>CDC22352-A0ED-5699-7F4C-370DCACBB252</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F73CDC1-863F-99A7-3A73-327B03BA47C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STEM" id="F22F2A8E-449B-1414-93C8-9E381023FA69">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Hierarchically superior team]]></commentInRDBMS>
+<generatorID>73DC7F60-FF93-87D4-88D0-05B31953417B</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE13BBBD-0444-B3A8-03C0-0E09E3EA5CCF" referredColumn="89F8AD97-EAA0-76D2-0EC1-0964A3604726"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93CBCF87-670B-E4EC-99B6-CA9F21799C90" name="TEM_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>A7B1374F-D01B-9600-417E-0E182C5E8956</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89F8AD97-EAA0-76D2-0EC1-0964A3604726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="139A29CB-1C4B-BDDE-DF9F-6B05E93884D5" name="TEM_TEM_NAME_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>000EAC69-097B-BBFC-1781-02D9192A6104</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04E0A5E6-4460-78D5-B38E-B9A9C76EAC9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6BF6F03-D974-C00A-7DC3-95A6B5D2044F" name="TEM_TEM_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>17C89FB4-6D5E-6CBF-903A-1129CBC511CF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F22F2A8E-449B-1414-93C8-9E381023FA69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

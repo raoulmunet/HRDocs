@@ -7,7 +7,8 @@
 <engineerTo>
 <item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
 </engineerTo>
-<additionalClassificationTypes>1,521FBBA0-9C44-7D90-1976-85F226CF9F5C</additionalClassificationTypes>
+<typeID>521FBBA0-9C44-7D90-1976-85F226CF9F5C</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -57,7 +58,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>18</dataTypePrecision>
 <domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="HANDICAP ID" id="859CFA2C-1225-E32D-EB29-DFF1B553FFAC">
 <createdBy>raoul</createdBy>
@@ -93,8 +94,9 @@
 <createdBy>raoul</createdBy>
 <createdTime>2020-03-01 12:40:57 UTC</createdTime>
 <ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -128,10 +128,6 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="5174" y="1274" width="288" height="124"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="6793A7F2-FAD3-2B8B-DE36-973364E106AB" otype="EntityView" vid="6290AD34-BD44-8BAE-6BD0-6DD398E66C17">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="20" y="2370" width="260" height="152"/>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="68A1F8ED-E2A1-4138-2517-CB992931EC44" otype="Entity" vid="65D35B13-87A3-4514-2547-DC76DB84FD3B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="665" y="1216" width="471" height="138"/>

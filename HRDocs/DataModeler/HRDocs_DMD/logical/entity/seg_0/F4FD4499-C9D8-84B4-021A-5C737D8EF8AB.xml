@@ -6,7 +6,8 @@
 <engineerTo>
 <item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
 </engineerTo>
-<additionalClassificationTypes>2,521FBBA0-9C44-7D90-1976-85F226CF9F5C</additionalClassificationTypes>
+<typeID>521FBBA0-9C44-7D90-1976-85F226CF9F5C</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -46,8 +47,9 @@
 <createdBy>raoul</createdBy>
 <createdTime>2020-02-27 10:57:30 UTC</createdTime>
 <ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -58,8 +60,9 @@
 <createdBy>raoul</createdBy>
 <createdTime>2020-02-27 14:31:11 UTC</createdTime>
 <ownerDesignName>HRDocs_DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="false"/>
 </engineerTo>
 <newElementsIDs>EC228C84-B334-1682-5478-9EBADFC6FDC1</newElementsIDs>
 <usedAttributes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11E1996F-63A9-1779-6FF8-0F1D2A2A6FA6" containerWithKeyObject="9C0F9E12-42BE-F202-8BEE-45E231F6E510" localFKIndex="5E209B14-F26C-FE49-AC32-D6734F64D7DF" name="INSFNDBNF_INSFND_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>41333744-ADEE-B33F-28F2-E2224A3174D5</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>INSFND</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DDDA95D5-7CC3-97D7-C646-B8E13FAE4D91</referredTableID>
+<keyObject>898C3E94-A13B-D818-8E8F-92372B3FFE65</keyObject>
+<referredKeyID>898C3E94-A13B-D818-8E8F-92372B3FFE65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>INSFND_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

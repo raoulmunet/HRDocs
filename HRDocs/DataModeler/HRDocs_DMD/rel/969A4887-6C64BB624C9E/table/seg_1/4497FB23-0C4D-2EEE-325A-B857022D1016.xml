@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="4497FB23-0C4D-2EEE-325A-B857022D1016" name="VAC">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vacations]]></commentInRDBMS>
+<generatorID>79984874-0203-8AF2-A5C7-F5A2794068D6</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>4EFA75B5-4A05-1A6C-F9BD-C8CB70D884F1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VAC_ID" id="33658FBF-7157-4069-111B-75A018F7E454">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>56DAA4B9-5A87-4119-690C-AA2E7E12C0A9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAC_DTE_STT" id="05EA2EDA-912F-D4C5-2BFE-0155C0357170">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date start]]></commentInRDBMS>
+<generatorID>56BAFACA-9AE5-7F89-F9CD-93F3302228A4</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAC_DTE_END" id="3317EB39-D301-C56D-6A52-067EFCED1778">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date end]]></commentInRDBMS>
+<generatorID>A9D052E6-A91D-A76B-545E-853EAB5464BA</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAC_DAY" id="4C03CF77-8AF1-BB73-B3A0-52D2BCB5F2A2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Number of days]]></commentInRDBMS>
+<generatorID>087FD8FD-B887-A1D2-AEC3-A830091DB13C</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PSO_ID" id="5F110D6C-36DF-AEA3-BDDB-70EF7C28D61E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Person]]></commentInRDBMS>
+<generatorID>1C606200-968C-A018-A3BF-EF9C3A20327E</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6577CE61-4B8F-0ED4-A64C-919F49FABC21" referredColumn="D3178F78-44C1-7793-49AE-C2376C226E9B"/>
+</associations>
+</Column>
+<Column name="APV" id="0B655348-6BFE-F6CA-506B-33BD528C23A1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Approuved Y/N]]></commentInRDBMS>
+<generatorID>E2A3BAF2-9608-5C1F-5043-71311445085E</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4845AA21-48F8-737F-9F0E-CA99CCC455FF" name="VAC_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>A3413162-017B-A048-8823-DFFB76B529CC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33658FBF-7157-4069-111B-75A018F7E454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EFFAD3E-99E1-529A-D0BF-12C3C000969F" name="VAC_VAC_DTE_STT_PSO_ID_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>58224DA2-75D5-8ADD-8498-CC169FAD23EF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05EA2EDA-912F-D4C5-2BFE-0155C0357170"/>
+<colUsage columnID="5F110D6C-36DF-AEA3-BDDB-70EF7C28D61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E9C0D85-A0BF-4E53-C2A9-E51A40D5D88B" name="VAC_VAC_DTE_END_PSO_ID_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>90723736-22A7-E669-05B7-729C31A1D4E9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3317EB39-D301-C56D-6A52-067EFCED1778"/>
+<colUsage columnID="5F110D6C-36DF-AEA3-BDDB-70EF7C28D61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A1415A0-FD93-FBC2-6702-550A9EF51DA5" name="VAC_PSO_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>5F6561BC-3F3F-8007-8031-03E9B824D0F1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F110D6C-36DF-AEA3-BDDB-70EF7C28D61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

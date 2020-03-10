@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="53D4243F-47C5-E012-3DDD-611AC230C44A" containerWithKeyObject="A637BCE0-2450-2B72-7529-84676AEBCBA1" localFKIndex="487810BC-EB73-0B9C-EDEC-942A7F35EAC1" name="TEMCMP_TEMCFG_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>5BE4B821-EF1A-B81D-C2D8-50B790009283</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>TEMCFG</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C196ACF-01E9-E391-D67D-7704E5EC8175</referredTableID>
+<keyObject>6054C644-DE19-9F09-5237-13714C4BC6EE</keyObject>
+<referredKeyID>6054C644-DE19-9F09-5237-13714C4BC6EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TEMCFG_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

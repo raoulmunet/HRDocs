@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="109335C1-A67A-CDB5-6B7D-EF28635CD0A5" containerWithKeyObject="BFB6EAB6-4657-69B7-7432-7EAD3FD5C110" localFKIndex="ACD51B49-586D-953F-9AB4-8D80CDB072BA" name="SSP_SSPRES_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>75F2D801-4E63-FD5E-C970-EBD367143DCD</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>SSPRES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA66EEC3-1D6E-BFA4-7349-3D58AD6FA795</referredTableID>
+<keyObject>6871A700-F64A-FF25-B1BB-3CE83260C637</keyObject>
+<referredKeyID>6871A700-F64A-FF25-B1BB-3CE83260C637</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SSPRES_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

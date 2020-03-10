@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFB6EAB6-4657-69B7-7432-7EAD3FD5C110" name="SSP">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Breaks in the contract (activity paused)]]></commentInRDBMS>
+<generatorID>7C9A5EE5-C896-A1A3-1BCD-AE4F61C9F44D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SSP_ID" id="B0195D48-0D6A-455B-ED50-BBC8FD07C86E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>61B66A29-73E4-E2C1-C909-3662718E29CA</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SSP_DTE_STT" id="D36DD8DF-171D-59ED-35C0-6A7FAFEE1C94">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Break start date]]></commentInRDBMS>
+<generatorID>006CCB64-3989-3AEB-1665-056605FBB694</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SSP_DTE_END" id="5C4DC3E9-3598-5DA8-51AE-CBF1E130A89E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Previewed date for return]]></commentInRDBMS>
+<generatorID>B352EFA2-C34F-2E54-54BF-945D42E5C6DB</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SSP_DTE_RTU" id="4D525C0F-A818-694D-DB01-913FCF0E20C8">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Break effective end date]]></commentInRDBMS>
+<generatorID>0454E4F4-1F50-1F83-22DD-A5B867FF695C</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CTR_ID" id="FD88DC5F-D0A6-53AB-56DD-3EC501D43451">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contract]]></commentInRDBMS>
+<generatorID>3B4131A5-2086-266D-94FD-7592F4696733</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B296D320-E3D7-B5B4-C870-622126A0358F" referredColumn="6FD42403-B797-F789-CF1E-5B9BCFB4D119"/>
+</associations>
+</Column>
+<Column name="ATV" id="47E17534-7D92-D243-B365-D28FEABC918A">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Is Active]]></commentInRDBMS>
+<generatorID>DE1F0ACA-03A8-350E-3F77-5F2DCE31352E</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<formulaDesc>IF(BRE_DTE_STT&lt;=SYSDATE AND (BRE_DTE_RTU &gt; SYSDATE OR BRE_DTE_RTU IS NULL), &apos;Y&apos;, &apos;N&apos;) </formulaDesc>
+<nullsAllowed>true</nullsAllowed>
+<sourceType>Derived</sourceType>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<computed>true</computed>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SSPRES_ID" id="A520C311-29F4-A1A5-F516-245C705F96B3">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>D56B2EDF-3612-8CF9-F00B-E6C4A8660DBC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="109335C1-A67A-CDB5-6B7D-EF28635CD0A5" referredColumn="F2E1CD6F-0AD0-FF3C-5A4F-5DE250EB2AFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EC329D3-BD2F-7748-4E7E-18813BBB78ED" name="SSP_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>882F6E77-E56C-C7B9-A585-F3B0597CEABA</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0195D48-0D6A-455B-ED50-BBC8FD07C86E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B05DBC0E-238E-9BF4-68EB-182CB3370D4F" name="SSP_SSP_DTE_STT_CTR_ID_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>C55C4E22-E1F6-2461-6A4E-1C53A774D545</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D36DD8DF-171D-59ED-35C0-6A7FAFEE1C94"/>
+<colUsage columnID="FD88DC5F-D0A6-53AB-56DD-3EC501D43451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="156DD42A-44F1-B20D-6BEC-555DF2938DA7" name="SSP_CTR_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>A22BD89B-C4CA-D371-4AE8-1C9EE0D800FA</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD88DC5F-D0A6-53AB-56DD-3EC501D43451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACD51B49-586D-953F-9AB4-8D80CDB072BA" name="SSP_SSPRES_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>75F2D801-4E63-FD5E-C970-EBD367143DCD</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A520C311-29F4-A1A5-F516-245C705F96B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

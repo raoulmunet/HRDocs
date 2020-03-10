@@ -8,7 +8,8 @@
 <engineerTo>
 <item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
 </engineerTo>
-<additionalClassificationTypes>48A9F753-94FB-6300-8020-938745334DB4,1</additionalClassificationTypes>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -233,10 +234,9 @@
 <createdTime>2020-01-17 11:22:47 UTC</createdTime>
 <comment><![CDATA[Unique addition number for each contract]]></comment>
 <ownerDesignName>HRDocs_DMD</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <importedID>8028CDB8-CBC0-08D6-E9E6-33D2026CA3B5</importedID>
 <engineerTo>
-<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="false"/>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
 </engineerTo>
 <newElementsIDs>40D1AE9A-04E1-B30A-E6AD-CCC589161759,ACB86A05-F3BC-F4D9-1FB2-30DFD4C313D1</newElementsIDs>
 <usedAttributes>
@@ -249,9 +249,8 @@
 <createdTime>2020-02-16 13:47:03 UTC</createdTime>
 <comment><![CDATA[Unique date effect for each contract]]></comment>
 <ownerDesignName>HRDocs_DMD</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="false"/>
+<item key="969A4887-C72E-6D0F-07CB-6C64BB624C9E" value="true"/>
 </engineerTo>
 <newElementsIDs>ACB86A05-F3BC-F4D9-1FB2-30DFD4C313D1,E5B7256A-CBA4-9E97-3486-31DCEC0C811B</newElementsIDs>
 <usedAttributes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BB6D6BD-3B45-D61B-003B-6B0EC0BF4637" containerWithKeyObject="A9998A9A-A90D-195D-F62E-C0C908196341" localFKIndex="E67BB467-14B9-D1F9-EE1B-9D690422D7DC" name="CTR_MEALALL_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>18771DDB-C887-FD07-956A-C3A7F2292DDD</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>MEALALL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>50866854-0964-7CF3-0E81-8031452A4523</referredTableID>
+<keyObject>7A1DE2D8-E3A5-6830-137D-0D93C8623750</keyObject>
+<referredKeyID>7A1DE2D8-E3A5-6830-137D-0D93C8623750</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>MEALALL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

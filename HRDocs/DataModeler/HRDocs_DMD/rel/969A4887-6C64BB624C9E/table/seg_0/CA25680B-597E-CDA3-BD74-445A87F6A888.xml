@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA25680B-597E-CDA3-BD74-445A87F6A888" name="BNFCTR">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Benefices to the contract]]></commentInRDBMS>
+<generatorID>FF4B78FA-DC90-0969-FCFB-0D5935578995</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>48A9F753-94FB-6300-8020-938745334DB4</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BNFCTR_ID" id="71D0F0F3-6FBA-7CC2-7B85-CB7E9626959F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>4682FF38-FDAF-2E22-1C66-F6BC76AD1438</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COM" id="31BF8D91-8F17-2612-8CA1-71CF8606C6F7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Observation]]></commentInRDBMS>
+<generatorID>D87B3EE4-C454-1AB2-2F58-50636D4F3A06</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D370C34-4258-D7C0-46F2-3E4C0AF2131D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BNF_ID" id="068B269D-CF14-13AF-00B1-7F45FB638CD7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Benefice]]></commentInRDBMS>
+<generatorID>DA8AC52B-522C-708C-D46C-0AB4483C60AF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48A59BA3-24AC-69ED-F5C8-FC3AB2EE1737" referredColumn="459FA481-D024-DF31-B761-236F90D7BB12"/>
+</associations>
+</Column>
+<Column name="CTR_ID" id="AD5D5ADD-F24D-76E7-8079-8AA13184F356">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Work contract]]></commentInRDBMS>
+<generatorID>0A5BFAF8-F01D-5E25-07AF-3F6DD6E79FA8</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0346BB8C-21CD-03AB-58D2-EE08881025C6" referredColumn="6FD42403-B797-F789-CF1E-5B9BCFB4D119"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40690C02-5E80-CCB0-0ED6-83C7DD734054" name="BNFCTR_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>B46D8509-C87C-37DC-4DEE-41E9E8E64ABB</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71D0F0F3-6FBA-7CC2-7B85-CB7E9626959F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E50F0C0-853E-4307-11B9-382DB33E3043" name="BNFCTR_CTR_ID_BNF_ID_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>B4B9E96D-41FD-EA54-0008-51FAD1B935A9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD5D5ADD-F24D-76E7-8079-8AA13184F356"/>
+<colUsage columnID="068B269D-CF14-13AF-00B1-7F45FB638CD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92395F59-D244-D8A2-E591-65F13E7DFD2E" name="BNFCTR_BNF_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>DF38F9E4-400E-F292-49AA-F3CD6E20424A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="068B269D-CF14-13AF-00B1-7F45FB638CD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63CC18C3-6DDD-A13E-F5FA-2D3AB7EB1E52" name="BNFCTR_CTR_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>B06AFD76-78F6-3A3C-29D7-2DCA61AE8890</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD5D5ADD-F24D-76E7-8079-8AA13184F356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

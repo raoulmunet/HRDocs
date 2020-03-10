@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D7E791B-4790-07B3-C786-D74D2596065B" containerWithKeyObject="FFECD2A4-A2D1-617A-A721-87DDB7C8D97A" localFKIndex="CE3B36BD-E55F-D3A4-0EA0-733D520F1CEC" name="PSOCER_LSTCER_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>62B3F5C4-DAD9-7543-5042-09EB3F91DFAF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>LSTCER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C712E26F-6714-B049-AB4B-0C831046D449</referredTableID>
+<keyObject>D1125B0A-1E47-0040-3300-33FA421D9ECF</keyObject>
+<referredKeyID>D1125B0A-1E47-0040-3300-33FA421D9ECF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LSTCER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="300643B4-BEB5-0B87-8569-9D884867BE34" containerWithKeyObject="8FA34924-4A77-A662-EB3D-C4689CF03267" localFKIndex="CB3423DA-4604-5DD1-8319-4D6169349806" name="INS_INSCMP_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>78B7F0DA-7C27-BBF8-5703-D025386CE783</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>INSCMP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20EAD534-7CA2-EB2C-6080-76767725A0EE</referredTableID>
+<keyObject>3433ABAB-62A3-5542-5C2B-E06741FE7509</keyObject>
+<referredKeyID>3433ABAB-62A3-5542-5C2B-E06741FE7509</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>INSCMP_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

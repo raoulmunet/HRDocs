@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9077FC4C-E8F6-CD04-4AF5-2C6BFA9292C1" containerWithKeyObject="C712E26F-6714-B049-AB4B-0C831046D449" localFKIndex="45B8146E-7FC7-F2CC-D203-E103D354629A" name="LSTCER_CERORG_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>F2A7E41C-767D-76B6-4EBC-C5FFA00FD0C1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>CERORG</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F56A2623-6BFA-DD3B-8A08-8899BECA09C6</referredTableID>
+<keyObject>64E70660-4B47-9388-109F-00BDD69CCE16</keyObject>
+<referredKeyID>64E70660-4B47-9388-109F-00BDD69CCE16</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CERORG_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

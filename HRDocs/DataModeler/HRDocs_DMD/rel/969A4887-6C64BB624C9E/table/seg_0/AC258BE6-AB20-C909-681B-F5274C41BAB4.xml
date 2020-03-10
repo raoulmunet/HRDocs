@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC258BE6-AB20-C909-681B-F5274C41BAB4" name="CTY">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Countries]]></commentInRDBMS>
+<generatorID>3C1E2450-861E-110D-7097-8D1B6BBA49D5</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>45E6BE49-92E7-12E3-8C0A-A1AB168A0012</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CTY_ID" id="2B1BD364-9F15-55DB-490D-F4C124FD97BA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>09D3EB6A-0AB1-07B9-19AB-24F9ECCEEF4A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CTY_NAME" id="AB8E5070-EC0D-09F5-E292-3B68FF4BE874">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country name]]></commentInRDBMS>
+<generatorID>C21724A6-7AC7-C0CF-EE75-DA0EC5E9B380</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<domain>A6AB6E88-AF2B-44C4-B51D-8B6157B0881E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2045F59F-1E0B-BB8C-3796-8B4522E9491F" name="CTY_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>7618C44B-D872-F32A-3160-A13A57584930</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B1BD364-9F15-55DB-490D-F4C124FD97BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDC5ADCC-CC20-1869-E49C-6AB1BBB1C824" name="CTY_CTY_NAME_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>36E7B11B-91A9-17EA-ED87-D024780432CB</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB8E5070-EC0D-09F5-E292-3B68FF4BE874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

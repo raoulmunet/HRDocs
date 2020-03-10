@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8050417C-0A79-63FD-3E16-3AA657116EA1" name="FCT">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Functions]]></commentInRDBMS>
+<generatorID>65286961-2C67-1CAA-D33F-0087B9CA240F</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>F292CFEE-0DD9-3AD9-7513-EA975B9B9970</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FCT_ID" id="ECD789C6-1ABE-DB94-7260-9979616D5EF6">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>FBC8A1FD-4D56-70DD-E05F-39167ACB83ED</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FCT_LBL" id="4344D354-AF91-1276-BA36-62B158415B77">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Function label]]></commentInRDBMS>
+<generatorID>9D2FAF36-364B-5C58-26FD-07E98D4D276E</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F73CDC1-863F-99A7-3A73-327B03BA47C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B205CB7-80F3-76F6-076F-D59C930E16DD" name="FCT_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>CDCA6B2B-C4BE-0882-23C1-811911DF594C</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECD789C6-1ABE-DB94-7260-9979616D5EF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39B4945B-4A31-A8A4-7697-D4B7E448F3FB" name="FCT_FCT_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>742DADC5-F648-0FBB-E573-59893D42911D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4344D354-AF91-1276-BA36-62B158415B77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D1DDB19-A4C6-A671-8662-6A49BDBF4862" containerWithKeyObject="34A3527C-D757-EF28-52FE-4452FA02F593" localFKIndex="DD766C32-4D1C-E167-10C9-D79D526707B9" name="CMP_WGE_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>953A0995-6B46-E501-10A6-E4F055C4AF5D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>WGE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F3E3CE4-6B28-BBB2-265B-C91B1EC0C1AE</referredTableID>
+<keyObject>F1AB535F-B2D4-3198-3F1F-E843E02005D6</keyObject>
+<referredKeyID>F1AB535F-B2D4-3198-3F1F-E843E02005D6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>WGE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

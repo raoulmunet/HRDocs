@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20EAD534-7CA2-EB2C-6080-76767725A0EE" name="INSCMP">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<comment><![CDATA[Insurance companies]]></comment>
+<commentInRDBMS><![CDATA[Insurance companies]]></commentInRDBMS>
+<generatorID>8BC4EF98-D452-C3C7-0B28-8413EA1E3FED</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>24AC831C-3558-2DD1-6B94-04C202A354B1</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INSCMP_ID" id="6194F9F1-C02E-32EF-2CD7-1BD9C16EF6A1">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>41BF7D52-B11F-1E6A-17C7-887E95D0FDDA</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSCMP_NAME" id="C6253B99-ECD2-6578-6CD4-8AA596E66068">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Insurance company name]]></commentInRDBMS>
+<generatorID>428C5261-76BF-16ED-25E4-D8918358E368</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F73CDC1-863F-99A7-3A73-327B03BA47C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3433ABAB-62A3-5542-5C2B-E06741FE7509" name="INSCMP_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>C9620E69-7B74-2483-E1AC-B9D1D0D2036D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6194F9F1-C02E-32EF-2CD7-1BD9C16EF6A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D18D2D1-4072-C1DA-E8D1-00BF19A7348B" name="INSCMP_INSCMP_NAME_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>EBECBCDB-4DF9-6AB6-C8D8-5D3B109AB400</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6253B99-ECD2-6578-6CD4-8AA596E66068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

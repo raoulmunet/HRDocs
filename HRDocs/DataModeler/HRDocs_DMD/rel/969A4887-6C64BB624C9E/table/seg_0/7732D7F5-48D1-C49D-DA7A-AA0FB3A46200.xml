@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7732D7F5-48D1-C49D-DA7A-AA0FB3A46200" name="RFCCFG">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Requested team configuration]]></commentInRDBMS>
+<generatorID>FA5AB2C1-0A5D-1987-C201-D7D6BD03CB59</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<abbreviation>RFCCFG</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RFCCFG_ID" id="A7B405CE-C6BE-C399-920E-7C98769031C7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>D231F4C7-F6F7-C315-BF7A-1E11F9EE6EA3</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RFCCFG_NUM" id="245254D6-FEFB-560B-600F-4A27084DF2B9">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Number of the new positions in team]]></commentInRDBMS>
+<generatorID>597BE318-46B5-F2BE-1195-FB6EB6659031</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31D83718-40BF-8A3A-326D-D3FD5CF41C3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEM_ID" id="51C30817-CF0A-535A-8868-BBDC1F878879">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Team]]></commentInRDBMS>
+<generatorID>8AC2B3E7-9D38-7D4D-4790-BCC90968A5A6</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1BF0458-3914-C68A-2370-A1726F8A4AC8" referredColumn="89F8AD97-EAA0-76D2-0EC1-0964A3604726"/>
+</associations>
+</Column>
+<Column name="FCT_ID" id="8662A8BD-8FA6-4F44-B05E-35414C2F49A8">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Function]]></commentInRDBMS>
+<generatorID>4B880F37-3487-AE07-B4AE-D85D55C70626</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9EB94CE-BDFC-038F-D3A8-D3A7C5905828" referredColumn="ECD789C6-1ABE-DB94-7260-9979616D5EF6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="189EDE05-4265-83A1-4B43-95F78C890EDA" name="RFCCFG_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>05E50AA4-6F21-F2AA-94F5-B558636F2A8D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7B405CE-C6BE-C399-920E-7C98769031C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAACF04F-FCF4-E0D0-3E30-572DB959DAEE" name="RFCCFG_FCT_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>52983B80-52BF-03EE-A349-28204EBA5E2A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8662A8BD-8FA6-4F44-B05E-35414C2F49A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9622F18C-91C3-707E-1A47-390C9476AC7F" name="RFCCFG_TEM_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>6D536984-FC52-E5B8-6B33-A4C8E227C7DC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51C30817-CF0A-535A-8868-BBDC1F878879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

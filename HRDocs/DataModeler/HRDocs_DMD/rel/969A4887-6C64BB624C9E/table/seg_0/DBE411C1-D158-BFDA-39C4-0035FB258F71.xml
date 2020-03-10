@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBE411C1-D158-BFDA-39C4-0035FB258F71" name="RFCLGG">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Language requested for function in team]]></commentInRDBMS>
+<generatorID>DAEE07A5-5692-F475-AE00-A8F4E4DB02F9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RFCCFG_ID" id="9047D4CD-4511-C368-76A9-486B60B653B7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>F530264C-296C-2BEE-8136-D93359D54BB9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F750E392-F9BF-58C0-4362-265C3E1D0667" referredColumn="A7B405CE-C6BE-C399-920E-7C98769031C7"/>
+</associations>
+</Column>
+<Column name="LSTLGG_ID" id="BE3EC4AB-9256-78F6-BD6A-6447689E75EB">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Language and minim level]]></commentInRDBMS>
+<generatorID>54AFEF61-5C58-2C83-E41E-4481127E5EE5</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B37CAE5-90F8-08B2-231A-BC8D5422AB2E" referredColumn="65D97E9D-B114-D021-519D-75C6A08F1398"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE3F4A93-FAAC-E945-BF67-568C6F976CFD" name="RFCLGG_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>9F8A26B5-706D-D979-3362-EE6F5FD62CE8</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9047D4CD-4511-C368-76A9-486B60B653B7"/>
+<colUsage columnID="BE3EC4AB-9256-78F6-BD6A-6447689E75EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCFE57A3-94C8-CE71-D7F5-7B2A637DF1DA" name="RFCLGG_LSTLGG_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>35CD8D7F-3E21-98D7-ADD3-09CB5C162067</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE3EC4AB-9256-78F6-BD6A-6447689E75EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91F94CC9-735D-A774-B351-A1BA296279E3" name="RFCLGG_RFCCFG_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>28B5C46E-5237-E5AB-39F3-086674913F6A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9047D4CD-4511-C368-76A9-486B60B653B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C712E26F-6714-B049-AB4B-0C831046D449" name="LSTCER">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[List of certifications]]></commentInRDBMS>
+<generatorID>471A1115-4045-3728-0531-A77D0F9D7A09</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>2D81A4E3-C16C-F2DC-2E96-E3679487F3C2</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<abbreviation>LSTCER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LSTCER_ID" id="5DBE1365-2EBC-0F1D-D246-EF12291A75F2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>E828334B-2339-A507-5653-45805142E4E5</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CER_ID" id="E1A92D09-99C1-0F57-1E1B-DBEAF084F8A8">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Certification]]></commentInRDBMS>
+<generatorID>DC20E519-14A9-124D-BC01-38A337354369</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6234050D-510A-05EF-246C-0B9791633E52" referredColumn="FA50CCDE-5C45-B655-15BC-3FC3D29B0D0B"/>
+</associations>
+</Column>
+<Column name="CERORG_ID" id="6C932015-E9B6-E4FA-360B-45ED0F161F22">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Organization]]></commentInRDBMS>
+<generatorID>3D9D5A55-CE2F-8588-8770-89FB555D8260</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9077FC4C-E8F6-CD04-4AF5-2C6BFA9292C1" referredColumn="D84115CD-6AD9-F8F5-4FC6-9C41D7C98999"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1125B0A-1E47-0040-3300-33FA421D9ECF" name="LSTCER_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>A4DB9CD6-F419-7C03-7399-A2A4369E65BE</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DBE1365-2EBC-0F1D-D246-EF12291A75F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C781A35-A11D-01B1-AA28-DDB123F5D14E" name="LSTCER_CER_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>8C4A68D0-A1EB-3002-2E1F-E360B81D5F04</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1A92D09-99C1-0F57-1E1B-DBEAF084F8A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45B8146E-7FC7-F2CC-D203-E103D354629A" name="LSTCER_CERORG_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>F2A7E41C-767D-76B6-4EBC-C5FFA00FD0C1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C932015-E9B6-E4FA-360B-45ED0F161F22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

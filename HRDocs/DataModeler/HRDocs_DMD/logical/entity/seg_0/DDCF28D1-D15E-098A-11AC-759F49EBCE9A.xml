@@ -73,7 +73,7 @@
 <domain>8FB3528D-325B-B5F4-1A0A-CE5ADFA013FA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PRIVATE-PENSION-PILLAR-3" id="1D6A248B-3783-2D5F-C50D-CA90D473E9CE">
+<Attribute name="PRIVATE PENSION-PILLAR-3" id="1D6A248B-3783-2D5F-C50D-CA90D473E9CE">
 <createdBy>raoul</createdBy>
 <createdTime>2020-02-26 19:54:16 UTC</createdTime>
 <commentInRDBMS><![CDATA[Contribution to a private pension pilar 3]]></commentInRDBMS>

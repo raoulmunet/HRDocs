@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A637BCE0-2450-2B72-7529-84676AEBCBA1" name="TEMCMP">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Team componence]]></commentInRDBMS>
+<generatorID>A8ACCB4B-4E65-9874-031B-3124697FC24B</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>F292CFEE-0DD9-3AD9-7513-EA975B9B9970</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<abbreviation>TEMCMP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEMCMP_ID" id="6D8BA354-B159-B7A7-B225-F9FF0C7C7368">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>B89ED346-28A9-7C3A-454F-DFACC002C669</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PSO_ID" id="CCFABC66-D944-1603-6317-E48C6A9733AF">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Person]]></commentInRDBMS>
+<generatorID>EAA49530-B298-9E76-C0E8-157B4FBE70A5</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FF995CB-64AF-E058-1ACD-AB274E88552F" referredColumn="D3178F78-44C1-7793-49AE-C2376C226E9B"/>
+</associations>
+</Column>
+<Column name="TEMCFG_ID" id="F12E8EDE-3795-D163-1A73-83FFCC9D13DA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Position in team]]></commentInRDBMS>
+<generatorID>00F8D311-201E-7C3F-E621-D1FD7F8086B4</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53D4243F-47C5-E012-3DDD-611AC230C44A" referredColumn="3D77BC37-BA5E-4D48-93D6-70510A37C60A"/>
+</associations>
+</Column>
+<Column name="TEM_DTE_DEBUT" id="CE72070B-0A92-0BAC-33DF-F2943BF74D2B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date debut]]></commentInRDBMS>
+<generatorID>0B02B600-B1B4-15C5-E8FB-08B37E9B65A2</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEM_DTE_END" id="A538BF27-D228-8EFF-365C-1CA4F3A6773E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date end]]></commentInRDBMS>
+<generatorID>07F36E2E-FDBE-3A38-B827-21FFC1760360</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PCT" id="CE31D496-0965-532B-1892-7A430FA0F4B5">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Percentage in team (the ressource can be partaged)]]></commentInRDBMS>
+<generatorID>7C05A959-921C-CCF2-440F-E014ACA632DC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<domain>B94C3E3F-8ACD-CA83-AAF5-42E36C40D255</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A3D5497-C2C1-BEC2-52EC-35619F28E98F" name="TEMCMP_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>109997E0-00BD-9779-7B75-F8FC2E86ED14</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D8BA354-B159-B7A7-B225-F9FF0C7C7368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7B59EA5-9B0F-FE03-BC30-CAD8BB1EB1AE" name="TEMCMP_PSO_ID_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>0F15CB4D-FA1C-821F-8A4B-DCC6328C31E6</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCFABC66-D944-1603-6317-E48C6A9733AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9B5B2D2-B6E5-E662-0C7F-AA74BFE7B1A2" name="TEMCMP_PSO_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>DEE31EBA-5F31-CC17-6356-52A697F361E9</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCFABC66-D944-1603-6317-E48C6A9733AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="487810BC-EB73-0B9C-EDEC-942A7F35EAC1" name="TEMCMP_TEMCFG_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>5BE4B821-EF1A-B81D-C2D8-50B790009283</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F12E8EDE-3795-D163-1A73-83FFCC9D13DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

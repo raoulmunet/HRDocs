@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4938A5F4-2AA3-9C42-B0A3-7EBD0F208C98" name="CHRG">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Person in charge for a step in the processus of recrutement]]></commentInRDBMS>
+<generatorID>146EBF3F-DB51-EEB2-33F2-9688E6D53E35</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<abbreviation>CHRG</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CHRG_ID" id="D46766A8-64E3-F51A-9902-9C9B2F2E0A1F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>CB2961E1-225A-5763-4968-A9E682ADA4AF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOBCND_ID" id="96E256D8-8F20-610F-0472-F810055F27E7">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Job - Candidate - Status]]></commentInRDBMS>
+<generatorID>6C4C7E4E-29C8-A29E-AEE8-C5A284C586DB</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9981D03E-83E0-4AF6-A768-CCF4D7FAA72A" referredColumn="9BF2ACCD-CD18-0BE4-CD7C-D95F079AEA3F"/>
+</associations>
+</Column>
+<Column name="PSO_ID" id="C12C76C4-77FA-19FF-EC11-18790AFF1C81">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Person in charge for the current step]]></commentInRDBMS>
+<generatorID>7093058E-05F7-0FA5-F404-8828E6A6BB25</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DF580D9-384E-A92E-6955-813065DD4F85" referredColumn="D3178F78-44C1-7793-49AE-C2376C226E9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="281DF366-AAB3-0332-0EE6-A1004A300BA7" name="CHRG_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>C8596FBE-9CBA-0C25-C51E-AD351149B6A0</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D46766A8-64E3-F51A-9902-9C9B2F2E0A1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94489568-D545-1146-C2B2-CFFC96611D88" name="CHRG_JOBCND_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>358D275D-43D4-C47F-C2E8-2D5B656119AC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96E256D8-8F20-610F-0472-F810055F27E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC8DE389-235E-A14A-A8D4-EB46F9E2A416" name="CHRG_PSO_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>DA0198DB-8A29-63AB-054C-8512C1333BB3</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C12C76C4-77FA-19FF-EC11-18790AFF1C81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

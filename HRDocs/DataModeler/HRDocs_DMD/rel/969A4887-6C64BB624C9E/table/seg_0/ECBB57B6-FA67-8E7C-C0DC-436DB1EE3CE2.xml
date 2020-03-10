@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECBB57B6-FA67-8E7C-C0DC-436DB1EE3CE2" name="DSBL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Disabled people]]></commentInRDBMS>
+<generatorID>C5F877CE-A54E-FC92-CD02-1CB211FE590B</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>521FBBA0-9C44-7D90-1976-85F226CF9F5C</typeID>
+<additionalClassificationTypes>1,521FBBA0-9C44-7D90-1976-85F226CF9F5C</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STT_DTE" id="1C846FA9-05F3-71F4-A9DB-F4592D6C2C21">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Start date]]></commentInRDBMS>
+<generatorID>7733441B-AC7F-D926-5F53-D19C91D0F2DF</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DTE" id="FA4235E9-6FD4-CAEE-E3FD-1D92ED1AE7DE">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[End date]]></commentInRDBMS>
+<generatorID>EFD47E7D-0559-D27E-5807-E7E2472AE30F</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2BE670A9-7CE6-FA18-DC4C-B5ECB82288D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PSO_ID" id="75FA3E25-30D6-34E0-9F0F-81D078CDB8E3">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>81E1062E-E2B0-6363-E387-E2B6F7FED687</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F8572E2-A4EB-DD17-716B-E8C812E37041" referredColumn="D3178F78-44C1-7793-49AE-C2376C226E9B"/>
+</associations>
+</Column>
+<Column name="HND_ID" id="A8460CD2-3332-C38B-A889-471240C10B1E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>859CFA2C-1225-E32D-EB29-DFF1B553FFAC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1760498A-C261-8FC2-8C8B-2BDCA103593D" referredColumn="44BB8537-F999-8752-7353-2BBC137A84C9"/>
+</associations>
+</Column>
+<Column name="HNDGRD_ID" id="C9458E01-FDDF-D17B-CC5C-C2A2001B4848">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>8164610A-3A0C-FB74-B4B0-B08DC3E6AC85</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC5F4CD8-F450-5313-4486-414F2DFF58CA" referredColumn="4C1A948B-6F49-3448-C963-0383F9F45186"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9901DFD2-E1E7-619E-D0BA-DC5B24B7189C" name="DSBL_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>200B59EE-E85E-A89D-837A-100DA0E1EFF3</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75FA3E25-30D6-34E0-9F0F-81D078CDB8E3"/>
+<colUsage columnID="A8460CD2-3332-C38B-A889-471240C10B1E"/>
+<colUsage columnID="C9458E01-FDDF-D17B-CC5C-C2A2001B4848"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="638DDB61-1655-698D-8D99-EE7C0F20057A" name="DSBL__IDX">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E6422FC7-0616-4C48-1493-FDF37CEB6246</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="75FA3E25-30D6-34E0-9F0F-81D078CDB8E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1C28331-1669-8C38-C9D3-72AC86DBEB9D" name="DSBL_HND_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>C77F8236-AC8D-3F47-DE96-D4BE5276EF95</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8460CD2-3332-C38B-A889-471240C10B1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="653C6DB9-EF54-6957-2FB6-9CE6638ECB44" name="DSBL_HNDGRD_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>E31CC60E-ED17-8FCB-CC52-825166102F85</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9458E01-FDDF-D17B-CC5C-C2A2001B4848"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CD298D5-B191-A779-F45C-20208946C597" name="DSBL_PSO_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>E6422FC7-0616-4C48-1493-FDF37CEB6246</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75FA3E25-30D6-34E0-9F0F-81D078CDB8E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

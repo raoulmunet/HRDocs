@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C98AF2FB-B656-339A-46B6-B2F95DBE5A3C" name="BNKEMP">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Coordinates of employees bank]]></commentInRDBMS>
+<generatorID>BD64DD01-787D-C1DB-716E-6C856146D63F</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>521FBBA0-9C44-7D90-1976-85F226CF9F5C</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PSO_ID" id="F6E7EEF2-53EE-63FB-8951-647BAE5839E0">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>8E97139C-2732-FE00-C790-FA75D98581F0</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F935516-0179-8AA9-3881-99C96A7388B9" referredColumn="D3178F78-44C1-7793-49AE-C2376C226E9B"/>
+</associations>
+</Column>
+<Column name="BNK_ID" id="49559CDA-1BD3-F45A-858D-1F181FD5B635">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>878595AA-A384-AE76-73CE-6B3794EF0762</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86B8BCDE-7393-3D45-8567-65EACD8089B6" referredColumn="7A31F27D-C230-9D28-B50A-E04B9C42EB2C"/>
+</associations>
+</Column>
+<Column name="ACCOUNT_NUM" id="F5101ED1-B115-7246-C23C-999A46B2B9B2">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Account number]]></commentInRDBMS>
+<generatorID>B18F7529-E471-697C-5F68-AC5DBFFE7820</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>94E8DCD0-E697-A004-C7CD-B51A7E6CAA30</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B51E3D21-F142-270C-D923-0B33C161FA2B" name="BNKEMP_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>87B26420-B2F0-75B3-171A-3CD0592F6199</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E7EEF2-53EE-63FB-8951-647BAE5839E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AD46E75-2304-2F2F-86DE-824BE4AF8825" name="BNKEMP_ACCOUNT_NUM_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>8AEC0387-B555-20F3-C5D6-384D4725F94A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5101ED1-B115-7246-C23C-999A46B2B9B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D861117-57BD-9FDE-2BFF-14668368FF95" name="BNKEMP_BNK_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>BFD3434B-12AF-71B6-77CF-83482BEAEC1F</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49559CDA-1BD3-F45A-858D-1F181FD5B635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55D81F85-6B3E-8F7F-B27E-7AB1C726CB9B" name="BNKEMP_PSO_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>6BB08718-B28D-CF11-E95A-EFF054E25558</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E7EEF2-53EE-63FB-8951-647BAE5839E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0D1B63D-AC30-0A88-3F16-06FF7459330B" name="PSOQLT">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quality of the person registered in table (employee, exemployee, relative ...)]]></commentInRDBMS>
+<generatorID>9CFBC28D-48B8-6B07-C827-AEC6A2CE0F2E</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>CE939052-FCED-54B7-DDDD-176194462DED</typeID>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PSOQLT_ID" id="EBAFD072-C242-7750-62BC-0E86539953B5">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>47A0CD1D-27C7-5381-83A7-0CE4554AC6FD</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PSOQLT_LBL" id="C1597B56-15AD-BA3D-E76D-8A303905358B">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quality label]]></commentInRDBMS>
+<generatorID>98FF1F33-7D56-951D-8609-58504A012968</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>003A552A-490E-59EC-9C74-223FFD39B92B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D6C6BDB-2FA4-F19A-1A20-798B7A911B24" name="PSOQLT_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>D6D81A93-F8B9-415A-28DE-8DDAB5B6C4F1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBAFD072-C242-7750-62BC-0E86539953B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7229FAF-9331-D502-FDB1-E396CD346291" name="PSOQLT_PSOQLT_LBL_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>58190AB2-3D85-177B-084C-9402221412FC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1597B56-15AD-BA3D-E76D-8A303905358B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

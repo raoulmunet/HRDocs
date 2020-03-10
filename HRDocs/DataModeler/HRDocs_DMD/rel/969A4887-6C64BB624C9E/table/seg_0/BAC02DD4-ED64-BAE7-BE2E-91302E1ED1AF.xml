@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAC02DD4-ED64-BAE7-BE2E-91302E1ED1AF" name="JOBCND">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pair job - candidate]]></commentInRDBMS>
+<generatorID>10F814BA-8A23-7D20-F477-AC6A63A73C10</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>0774A096-0411-F5DF-5999-DB9A429D1FB1</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JOBCND_ID" id="9BF2ACCD-CD18-0BE4-CD7C-D95F079AEA3F">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>F662AD60-24D5-B8A8-6ADD-D6F8163F5725</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CND_ID" id="B2D7E7B0-878E-0B75-673D-6BE3849ECAE5">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Candidate]]></commentInRDBMS>
+<generatorID>EBA7D4AD-D7B9-85C7-02CD-A530278371A8</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F1207F6-3BF7-1230-2225-4B572E72B29C" referredColumn="6380D2BE-8359-6846-4343-F1F9091FA92E"/>
+</associations>
+</Column>
+<Column name="JOB_ID" id="966B0535-00D6-8159-EF38-FAC087F67211">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Job]]></commentInRDBMS>
+<generatorID>9C2CDA55-CB11-1DE7-65A1-C8FD96CA6D94</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C17BBDCC-699D-E8EE-2560-5B44B1665C10" referredColumn="78480FF1-6BF4-1F5C-4785-188A5E800A68"/>
+</associations>
+</Column>
+<Column name="APPSTS_ID" id="506A88EF-84BD-4CB9-56FD-43A699AFAC38">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Application status]]></commentInRDBMS>
+<generatorID>7DB878CB-7292-28C1-FBEF-95F8E0C6F8F0</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAFA7E03-DEDC-C869-5342-E1698C653B9E" referredColumn="B9639E7A-3FC4-57E4-CA5C-04021796F52B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B9E03E3-D1CC-F918-8CF7-341BE0484A1A" name="JOBCND_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>F7445606-B2B1-0953-73AF-3041426B6F8D</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BF2ACCD-CD18-0BE4-CD7C-D95F079AEA3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2BC642B-73A3-3854-98E2-33A934E0AE01" name="JOBCND_APPSTS_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>0EC9AB14-BE51-8AC3-F9EF-230E9C9A42D6</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="506A88EF-84BD-4CB9-56FD-43A699AFAC38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F6D23FC-4140-629F-5285-AF128FE32398" name="JOBCND_CND_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>DCD3060D-8A3A-7722-BA56-97512026C436</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2D7E7B0-878E-0B75-673D-6BE3849ECAE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="762B4837-E794-7923-D25D-C418D3BF0E35" name="JOBCND_JOB_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>8F3167D7-8247-B886-1636-0800F0EA37AD</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="966B0535-00D6-8159-EF38-FAC087F67211"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F750E392-F9BF-58C0-4362-265C3E1D0667" containerWithKeyObject="DBE411C1-D158-BFDA-39C4-0035FB258F71" localFKIndex="91F94CC9-735D-A774-B351-A1BA296279E3" name="RFCLGG_RFCCFG_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>28B5C46E-5237-E5AB-39F3-086674913F6A</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>RFCCFG</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7732D7F5-48D1-C49D-DA7A-AA0FB3A46200</referredTableID>
+<keyObject>189EDE05-4265-83A1-4B43-95F78C890EDA</keyObject>
+<referredKeyID>189EDE05-4265-83A1-4B43-95F78C890EDA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RFCCFG_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

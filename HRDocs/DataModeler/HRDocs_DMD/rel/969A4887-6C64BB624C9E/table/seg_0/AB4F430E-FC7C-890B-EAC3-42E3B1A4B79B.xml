@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB4F430E-FC7C-890B-EAC3-42E3B1A4B79B" name="TEMSKL">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Skills needed for a position in the team's configuration]]></commentInRDBMS>
+<generatorID>92E91172-9084-E30B-D4EC-5A924B5C5EBC</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>F292CFEE-0DD9-3AD9-7513-EA975B9B9970</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEMCFG_ID" id="9764ADE5-CE29-3734-E902-4E1228CFD5CD">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>CA79BA2F-2EAC-8F4B-45F5-7CAB41BE0B66</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55D40590-F10E-4FBC-2432-00BE4EF957D9" referredColumn="3D77BC37-BA5E-4D48-93D6-70510A37C60A"/>
+</associations>
+</Column>
+<Column name="LSTSKL_ID" id="3EF6EF00-6CF6-5956-E858-BBC163E3D837">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Skill - Level]]></commentInRDBMS>
+<generatorID>2DC0487E-C09C-1F8F-A4F9-47D35EDB5824</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDDDAD62-7E49-6273-F21E-97A36E5BD74B" referredColumn="222DC176-76B0-609B-3F9A-AF521E6DB41B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4451D273-5663-A524-B040-A01FF3C242F4" name="TEMSKL_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>B5B9E7D7-5316-A56F-8110-6A0B3241EF68</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EF6EF00-6CF6-5956-E858-BBC163E3D837"/>
+<colUsage columnID="9764ADE5-CE29-3734-E902-4E1228CFD5CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B77F0E2-AAA7-4C56-5E5C-539879DE08B9" name="TEMSKL_LSTSKL_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>07989135-749E-5B1B-304E-F69FB34EC878</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EF6EF00-6CF6-5956-E858-BBC163E3D837"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABF9639D-EE76-F58A-1F80-78DE807265C6" name="TEMSKL_TEMCFG_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:52 UTC</createdTime>
+<generatorID>ED6AA4C1-2146-6DF2-A767-C1377523EF31</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9764ADE5-CE29-3734-E902-4E1228CFD5CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

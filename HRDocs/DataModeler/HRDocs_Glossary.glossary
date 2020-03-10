@@ -135,5 +135,38 @@
    <glossaryWord name="INTERVENOR-JOB-CANDIDATE" plural="" abbreviation="INTJC" alt_abbreviation="" primary_word="true" id="C3C307D2-34F9-F101-08AF-E657AEC20BB6" import_id="" description="" />
    <glossaryWord name="DEPENDENT" plural="" abbreviation="DEP" alt_abbreviation="" primary_word="true" id="80F2C39F-5884-0B26-4325-374D04A25113" import_id="" description="" />
    <glossaryWord name="DEPENDENT-PERSON" plural="" abbreviation="DEPPSO" alt_abbreviation="" class_word="true" id="410A4B88-633B-12B9-A561-BD21CBA51107" import_id="" description="" />
+   <glossaryWord name="PERMANENT" plural="" abbreviation="PERM" alt_abbreviation="" class_word="true" id="5918A3EA-25A6-54CA-0936-0C26516C54B9" import_id="" description="" />
+   <glossaryWord name="TERM-EXTENSION" plural="" abbreviation="EXTT" alt_abbreviation="" class_word="true" id="A1F6FFFB-8480-1EA2-4A04-B5CAED65F5F5" import_id="" description="" />
+   <glossaryWord name="BANK" plural="" abbreviation="BNK" alt_abbreviation="" primary_word="true" id="D2CC36D8-502E-A62D-072E-A951840BFD77" import_id="" description="" />
+   <glossaryWord name="BANK-EMPLOYEE" plural="" abbreviation="BNKEMP" alt_abbreviation="" primary_word="true" id="2610E5CC-3A6F-49BE-058C-ED67BC22E6FF" import_id="" description="" />
+   <glossaryWord name="IS-MAIN-CONTRACT" plural="" abbreviation="MAINCTR" alt_abbreviation="" class_word="true" id="911B548A-873E-2E73-1DEF-07F5B4F69EDF" import_id="" description="" />
+   <glossaryWord name="CINTRACT-TYPE" plural="" abbreviation="CTRTYP" alt_abbreviation="" class_word="true" id="354C2D92-072B-01B3-0563-83B17DEC1856" import_id="" description="" />
+   <glossaryWord name="CONTRIBUTION" plural="" abbreviation="CNTRB" alt_abbreviation="" primary_word="true" id="1C389854-B3E9-BA5C-86B3-1FC11D1DE5B4" import_id="" description="" />
+   <glossaryWord name="BASIS" plural="" abbreviation="BAS" alt_abbreviation="" class_word="true" id="598D31EE-A222-D050-9122-E3C30AD54745" import_id="" description="" />
+   <glossaryWord name="CO-INSURED" plural="" abbreviation="COINS" alt_abbreviation="" class_word="true" id="54AFE0E7-EC6B-AFC8-B4D5-04112FEB1E35" import_id="" description="" />
+   <glossaryWord name="DISABLED" plural="" abbreviation="DSBL" alt_abbreviation="" primary_word="true" id="EE23DDB6-F048-DA97-C7D3-8FA5B0179DAC" import_id="" description="" />
+   <glossaryWord name="HANDICAP" plural="" abbreviation="HND" alt_abbreviation="" primary_word="true" id="21645316-49D4-D745-DBB7-9EACFFF86ED3" import_id="" description="" />
+   <glossaryWord name="HANDICAP-GRADE" plural="" abbreviation="HNDGRD" alt_abbreviation="" primary_word="true" id="A153483C-5B88-6248-5666-C223FEAE096A" import_id="" description="" />
+   <glossaryWord name="HEALTH-INSURANCE-FUND" plural="" abbreviation="INSFND" alt_abbreviation="" primary_word="true" id="38E175FB-C78A-559A-C39B-EB003196A855" import_id="" description="" />
+   <glossaryWord name="HEALTH-INSURANCE-FUND-BENEFICIAR" plural="" abbreviation="INSFNDBNF" alt_abbreviation="" primary_word="true" id="85A03516-6855-4919-3CD6-A084EDAD1758" import_id="" description="" />
+   <glossaryWord name="MEAL-ALLOWANCE" plural="" abbreviation="MEALALL" alt_abbreviation="" primary_word="true" id="7DED4028-C0BD-911F-9E7F-4D9F8AE53444" import_id="" description="" />
+   <glossaryWord name="PAYROLL" plural="" abbreviation="PRL" alt_abbreviation="" primary_word="true" id="22282CCE-D5C6-8E8A-992F-BF87709828A8" import_id="" description="" />
+   <glossaryWord name="ADVANCE" plural="" abbreviation="ADV" alt_abbreviation="" class_word="true" id="2BFF5980-1EBB-4D82-DA92-8ECEA05D9417" import_id="" description="" />
+   <glossaryWord name="DEDUCTION" plural="" abbreviation="DDCT" alt_abbreviation="" class_word="true" id="13C507AF-65CE-CF86-3B11-B4D3F3AD4E3C" import_id="" description="" />
+   <glossaryWord name="HAS-DEDUCTION" plural="" abbreviation="DDCTD" alt_abbreviation="" class_word="true" id="FFEAF48D-23A9-744C-B489-493EEBC5802F" import_id="" description="" />
+   <glossaryWord name="PENSION-PILLAR-3" plural="" abbreviation="PPTHR" alt_abbreviation="" class_word="true" id="C89CC3CC-E010-984C-2C4C-923A3C6E42B3" import_id="" description="" />
+   <glossaryWord name="TAX-EXEMPT" plural="" abbreviation="TXXMP" alt_abbreviation="" class_word="true" id="97651576-2A20-8987-A20F-FE05DD39C5FF" import_id="" description="" />
+   <glossaryWord name="EMPLOYEE-ID" plural="" abbreviation="EMPID" alt_abbreviation="" class_word="true" id="EC6C1D81-4B64-753E-DD32-38311C8BE9F9" import_id="" description="" />
+   <glossaryWord name="PRESCRIBER" plural="" abbreviation="PRSC" alt_abbreviation="" primary_word="true" id="7560AC83-913C-780A-B195-FC2698580D09" import_id="" description="" />
+   <glossaryWord name="SICK-LEAVE" plural="" abbreviation="SCKLV" alt_abbreviation="" primary_word="true" id="663865AB-FD4B-1791-3AEA-87E84AD2EFF6" import_id="" description="" />
+   <glossaryWord name="BICO-CODE" plural="" abbreviation="BICO" alt_abbreviation="" class_word="true" id="1796EB91-1989-E1BF-A508-020039029E9C" import_id="" description="" />
+   <glossaryWord name="CERTIFICATE" plural="" abbreviation="CERTS" alt_abbreviation="" modifier="true" id="6924790B-D0C9-5241-D511-6B818E749E3B" import_id="" description="" />
+   <glossaryWord name="EXPERT" plural="" abbreviation="CERTADV" alt_abbreviation="" modifier="true" id="D41E3764-32C4-501C-3C46-D91B8A3B82EC" import_id="" description="" />
+   <glossaryWord name="SERIAL" plural="" abbreviation="SER" alt_abbreviation="" class_word="true" id="F472E1B6-1590-B8EA-6503-BA97BC6716B3" import_id="" description="" />
+   <glossaryWord name="ADVICE" plural="" abbreviation="ADV" alt_abbreviation="" class_word="true" id="3E1B4E87-5DBA-ADAD-B012-913E17FEEEE4" import_id="" description="" />
+   <glossaryWord name="INITIAL" plural="" abbreviation="INI" alt_abbreviation="" modifier="true" id="F32CC240-215D-BF3A-47D2-2FC4E9886956" import_id="" description="" />
+   <glossaryWord name="INDEMNISATION" plural="" abbreviation="INDMN" alt_abbreviation="" class_word="true" id="356DD6B1-A81C-95BE-63C2-34FDAA4E61AF" import_id="" description="" />
+   <glossaryWord name="CONTRACT-TYPE" plural="" abbreviation="CTRTYP" alt_abbreviation="" primary_word="true" id="ED7BC674-7DD7-4729-5BFA-100FD209AA0B" import_id="" description="" />
+   <glossaryWord name="SICK-LEAVE-INDEMNISATION" plural="" abbreviation="SCKLVINDMN" alt_abbreviation="" primary_word="true" id="067434D8-78B4-561A-C4B5-3E5EC4D6EF07" import_id="" description="" />
 
 </cwd_glossary>

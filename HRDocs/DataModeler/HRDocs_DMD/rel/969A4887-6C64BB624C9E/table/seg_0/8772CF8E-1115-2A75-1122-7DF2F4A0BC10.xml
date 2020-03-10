@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8772CF8E-1115-2A75-1122-7DF2F4A0BC10" name="CIT">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cities]]></commentInRDBMS>
+<generatorID>B12A522F-9BC6-AD13-68AE-71BE4670D418</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<typeID>45E6BE49-92E7-12E3-8C0A-A1AB168A0012</typeID>
+<additionalClassificationTypes>1</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CIT_ID" id="F7524026-DB64-709B-725C-D6E725F656EA">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>5902A320-8E02-D56B-D84D-6C6D4E336540</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIT_NAME" id="A5ACE0B6-CA56-B031-9E4B-D134FC8875E9">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[City name]]></commentInRDBMS>
+<generatorID>16CC29CA-C9D0-3129-91A6-AC889B92A901</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<domain>A6AB6E88-AF2B-44C4-B51D-8B6157B0881E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_ID" id="92871A22-4F3D-8C85-E35F-D3FE68BB8E7E">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Region]]></commentInRDBMS>
+<generatorID>22B267C2-EA44-CC8A-6EA3-D596BA22EC85</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DD6B902D-2960-A9D4-204A-45024E328390</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0B407DC-14AF-6B9F-C54D-5C22AC4C1460" referredColumn="3CAD1282-154A-1103-3B37-8255A09EC51F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F28C796-B04A-6565-848A-59FBECF2956E" name="CIT_PK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>E997ADD3-90D1-5374-EF57-BA854840E1C3</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7524026-DB64-709B-725C-D6E725F656EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C955FCFF-29A5-65D4-42C6-719C34F2BE16" name="CIT_CIT_NAME_UN">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>5A3551B0-9694-27C6-ECF3-67AE8F29106F</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5ACE0B6-CA56-B031-9E4B-D134FC8875E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C63DE058-D659-D1A3-F252-185865C67265" name="CIT_REG_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>01F39F1C-CAED-0DDD-3FCA-1721D457F02B</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92871A22-4F3D-8C85-E35F-D3FE68BB8E7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

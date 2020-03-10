@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EAE192CF-8408-02C6-7F25-650ECE3E93EA" containerWithKeyObject="DD4C4411-8053-31C3-CB22-D4B84BDB41EB" localFKIndex="CE8C9B98-6C99-3972-F22F-9AAD96402345" name="ADD_WKL_FK">
+<createdBy>raoul</createdBy>
+<createdTime>2020-03-10 11:38:51 UTC</createdTime>
+<generatorID>557B526B-C22E-1CFF-D019-8B505317C4E1</generatorID>
+<ownerDesignName>HRDocs_DMD</ownerDesignName>
+<referredTableLongName>WKL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B01FA7C9-759C-1C04-EF93-7A223A29BBC3</referredTableID>
+<keyObject>87394914-A641-1FEC-8BB2-491746777629</keyObject>
+<referredKeyID>87394914-A641-1FEC-8BB2-491746777629</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>WKL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
